@@ -607,6 +607,31 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6b669608-d244-47fa-b233-c11102b937f7",
+      "Root"
+    ],
+    [
+      "667b0f08-b3c4-41fd-b636-af095e43c1e3",
+      "Analog Audio"
+    ],
+    [
+      "a612f681-deed-4875-ab5c-1bac38582f71",
+      "Audio Codec"
+    ],
+    [
+      "942daa49-72f6-4fca-bb5b-9cd809da0775",
+      "DSP"
+    ],
+    [
+      "f81f6974-b487-4052-a7d6-483d2ffe3d9e",
+      "PSU"
+    ],
+    [
+      "8ffc3301-4c22-4c95-9332-898162453ed9",
+      "USB-C filter"
+    ]
+  ],
   "text_variables": {}
 }

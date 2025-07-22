@@ -1,0 +1,944 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94b0c1b2-4ffe-43ba-945e-5c8c8b0b8ffe")
+	(paper "A3")
+	(lib_symbols
+		(symbol "User:DIR9001PWR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.16 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DIR9001PWR"
+				(at 10.16 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "User:PW28"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/dir9001"
+				(at 20.828 33.528 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C96215"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DIR9001PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PW28 PW28-M PW28-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIR9001PWR_1_1"
+				(rectangle
+					(start 7.62 5.334)
+					(end 38.1 -38.1)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "RXIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.048 0)
+					(length 7.62)
+					(name "FMT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.588 0)
+					(length 7.62)
+					(name "FMT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "FSOUT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "FSOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "ERROR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "XTI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "XTO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -29.21 0)
+					(length 7.62)
+					(name "FILT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 13.97 0)
+					(length 7.62)
+					(name "CKSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 26.67 0)
+					(length 7.62)
+					(name "EMPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 15.24 0)
+					(length 7.62)
+					(name "RSV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 41.91 22.86 0)
+					(length 7.62)
+					(name "PSCK0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 41.91 20.32 0)
+					(length 7.62)
+					(name "PSCK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -2.54 180)
+					(length 7.62)
+					(name "BCKO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -5.08 180)
+					(length 7.62)
+					(name "BFRAME"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -10.16 180)
+					(length 7.62)
+					(name "COUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -12.7 180)
+					(length 7.62)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -21.59 180)
+					(length 7.62)
+					(name "LRCKO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -24.13 180)
+					(length 7.62)
+					(name "SCKO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -27.94 180)
+					(length 7.62)
+					(name "UOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -30.48 180)
+					(length 7.62)
+					(name "~AUDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 -33.02 180)
+					(length 7.62)
+					(name "CLKST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 45.72 -35.56 180)
+					(length 7.62)
+					(name "~RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DIR9001PWR_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -20.32 90)
+					(length 7.62)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -20.32 90)
+					(length 7.62)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "User:DIR9001PWR")
+		(at 39.37 254 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "158828d7-237f-4b66-ad1c-90504ea829d1")
+		(property "Reference" "U5"
+			(at 45.72 256.5399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIR9001PWR"
+			(at 45.72 259.0799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User:PW28"
+			(at 39.37 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/dir9001"
+			(at 60.198 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96215"
+			(at 39.37 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6dfb29b1-785e-4e61-b987-3d88c1b433f9")
+		)
+		(pin "2"
+			(uuid "09aeae54-677f-4f53-bcd2-b30a586f2624")
+		)
+		(pin "8"
+			(uuid "86ec8ef8-63cc-45ea-b460-5d6aef331114")
+		)
+		(pin "24"
+			(uuid "ba9287d7-b674-418e-83fa-bf3644103afb")
+		)
+		(pin "10"
+			(uuid "1de8e1a2-fe88-4a06-9f8b-68d8a56225e4")
+		)
+		(pin "17"
+			(uuid "8667ac52-0ca1-477e-aac9-969cb3e5b78a")
+		)
+		(pin "14"
+			(uuid "0a18dd00-4cb4-4238-adf5-c41cefd49573")
+		)
+		(pin "4"
+			(uuid "c413cd17-abba-4b5b-ab03-29563af6f66d")
+		)
+		(pin "9"
+			(uuid "0df57da8-2919-4daa-970b-fe0cc097a842")
+		)
+		(pin "1"
+			(uuid "64a83f50-a893-4280-aff3-33275aab77ad")
+		)
+		(pin "25"
+			(uuid "4c658d76-95e8-4e7c-be30-0335c078577c")
+		)
+		(pin "22"
+			(uuid "9fb4f300-5877-49a1-80f2-97e7da547340")
+		)
+		(pin "7"
+			(uuid "f8560231-211e-4e74-b502-46b95e1dd4a2")
+		)
+		(pin "26"
+			(uuid "3d8deac0-4ceb-4c75-ae19-843bc43efa82")
+		)
+		(pin "3"
+			(uuid "ceede101-a9e1-4f2a-aa09-fe94f2092f64")
+		)
+		(pin "28"
+			(uuid "af9a6c07-f5b5-4a76-8b52-27c4c0804ba1")
+		)
+		(pin "19"
+			(uuid "37c9f770-54d1-4251-8094-9b8cbf77de27")
+		)
+		(pin "11"
+			(uuid "91e855af-2bca-4a9c-bc41-5966015fa099")
+		)
+		(pin "18"
+			(uuid "618bccef-a22d-4329-94e8-f984de33be7b")
+		)
+		(pin "15"
+			(uuid "c0e1c9da-d656-484d-bd55-ce84e06f35cb")
+		)
+		(pin "12"
+			(uuid "99898f4a-45ad-4506-81e8-e68daa523826")
+		)
+		(pin "20"
+			(uuid "a0fbc04d-fe4e-43c3-af77-43aec5429477")
+		)
+		(pin "27"
+			(uuid "da18b721-37aa-4dce-a022-81604dd984b3")
+		)
+		(pin "16"
+			(uuid "5a2209fa-5b21-448b-b2f6-29c41c808a34")
+		)
+		(pin "5"
+			(uuid "3dd36931-69d2-4fb9-b5f1-b43e026b4f61")
+		)
+		(pin "6"
+			(uuid "9c569593-3b64-41e6-80eb-8776ae3288ea")
+		)
+		(pin "21"
+			(uuid "1cb42d2e-01c9-4565-8f23-8077a1aefb7f")
+		)
+		(pin "23"
+			(uuid "c4ff8fa8-bb9e-4bb5-98d2-a3f51d911dcd")
+		)
+		(instances
+			(project ""
+				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User:DIR9001PWR")
+		(at 147.32 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a23cb302-00ea-4afc-b468-51d4f266157c")
+		(property "Reference" "U13"
+			(at 175.895 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DIR9001PWR"
+			(at 175.895 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "User:PW28"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/dir9001"
+			(at 168.148 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96215"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6dfb29b1-785e-4e61-b987-3d88c1b433fa")
+		)
+		(pin "2"
+			(uuid "09aeae54-677f-4f53-bcd2-b30a586f2625")
+		)
+		(pin "8"
+			(uuid "86ec8ef8-63cc-45ea-b460-5d6aef331115")
+		)
+		(pin "24"
+			(uuid "ba9287d7-b674-418e-83fa-bf3644103afc")
+		)
+		(pin "10"
+			(uuid "1de8e1a2-fe88-4a06-9f8b-68d8a56225e5")
+		)
+		(pin "17"
+			(uuid "8667ac52-0ca1-477e-aac9-969cb3e5b78b")
+		)
+		(pin "14"
+			(uuid "0a18dd00-4cb4-4238-adf5-c41cefd49574")
+		)
+		(pin "4"
+			(uuid "c413cd17-abba-4b5b-ab03-29563af6f66e")
+		)
+		(pin "9"
+			(uuid "0df57da8-2919-4daa-970b-fe0cc097a843")
+		)
+		(pin "1"
+			(uuid "64a83f50-a893-4280-aff3-33275aab77ae")
+		)
+		(pin "25"
+			(uuid "4c658d76-95e8-4e7c-be30-0335c078577d")
+		)
+		(pin "22"
+			(uuid "9fb4f300-5877-49a1-80f2-97e7da547341")
+		)
+		(pin "7"
+			(uuid "f8560231-211e-4e74-b502-46b95e1dd4a3")
+		)
+		(pin "26"
+			(uuid "3d8deac0-4ceb-4c75-ae19-843bc43efa83")
+		)
+		(pin "3"
+			(uuid "ceede101-a9e1-4f2a-aa09-fe94f2092f65")
+		)
+		(pin "28"
+			(uuid "af9a6c07-f5b5-4a76-8b52-27c4c0804ba2")
+		)
+		(pin "19"
+			(uuid "37c9f770-54d1-4251-8094-9b8cbf77de28")
+		)
+		(pin "11"
+			(uuid "91e855af-2bca-4a9c-bc41-5966015fa09a")
+		)
+		(pin "18"
+			(uuid "618bccef-a22d-4329-94e8-f984de33be7c")
+		)
+		(pin "15"
+			(uuid "c0e1c9da-d656-484d-bd55-ce84e06f35cc")
+		)
+		(pin "12"
+			(uuid "99898f4a-45ad-4506-81e8-e68daa523827")
+		)
+		(pin "20"
+			(uuid "a0fbc04d-fe4e-43c3-af77-43aec5429478")
+		)
+		(pin "27"
+			(uuid "da18b721-37aa-4dce-a022-81604dd984b4")
+		)
+		(pin "16"
+			(uuid "5a2209fa-5b21-448b-b2f6-29c41c808a35")
+		)
+		(pin "5"
+			(uuid "3dd36931-69d2-4fb9-b5f1-b43e026b4f62")
+		)
+		(pin "6"
+			(uuid "9c569593-3b64-41e6-80eb-8776ae3288eb")
+		)
+		(pin "21"
+			(uuid "1cb42d2e-01c9-4565-8f23-8077a1aefb80")
+		)
+		(pin "23"
+			(uuid "c4ff8fa8-bb9e-4bb5-98d2-a3f51d911dce")
+		)
+		(instances
+			(project ""
+				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

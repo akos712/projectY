@@ -1,4 +1,4 @@
-24966840716579304
+24970349551330984
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99589,6 +99589,13 @@ connector barrel jack
 3
 3
 User
+IC_TPS2121RUXR
+
+
+0
+16
+16
+User
 Infineon_PG-LLGA-5-2
 Infineon, IP57, XENSIV, LGA-5, https://www.infineon.com/dgdl/Infineon-IM73A135-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c7f2a768a017fadec36b84500
 MEMS Microphone LGA Dust Water
@@ -99644,6 +99651,13 @@ RV16AF_2
 0
 6
 6
+User
+SON40P300X300X80-13N
+
+
+0
+13
+13
 User
 VFBGA178_12X12_STM
 

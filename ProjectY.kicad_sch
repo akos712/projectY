@@ -1929,16 +1929,6 @@
 		)
 		(uuid "63ba6211-7e4f-4e5c-870e-dabaac6b39bd")
 	)
-	(text "GIT TEST\n"
-		(exclude_from_sim no)
-		(at 102.87 44.958 0)
-		(effects
-			(font
-				(size 25.4 25.4)
-			)
-		)
-		(uuid "d577ee1d-6d38-49f9-b801-d900213d1036")
-	)
 	(junction
 		(at 83.82 251.46)
 		(diameter 0)
@@ -1952,6 +1942,12 @@
 		(uuid "38bdfb70-0eb8-4e99-bd94-bb2170aaa98e")
 	)
 	(junction
+		(at 185.42 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d0d5cb-63c9-4263-9ff2-4a745b4645b3")
+	)
+	(junction
 		(at 83.82 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1962,12 +1958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e93ebc-5ccd-4dea-a77d-7b83b1ff52fa")
-	)
-	(junction
-		(at 185.42 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97039cdb-0950-4b4c-8ce4-5d43d6216c00")
 	)
 	(junction
 		(at 83.82 254)
@@ -2134,6 +2124,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 113.03) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8e1b6f-6d52-4607-af00-4872b1cac8cc")
+	)
+	(wire
+		(pts
 			(xy 208.28 71.12) (xy 203.2 71.12)
 		)
 		(stroke
@@ -2223,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "20afba65-6d7a-47ba-8ad3-73d2b6ea6f66")
+	)
+	(wire
+		(pts
+			(xy 179.07 90.17) (xy 208.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a72768-0d75-4f67-81d4-d00366584113")
 	)
 	(wire
 		(pts
@@ -2327,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 90.17) (xy 185.42 90.17)
+			(xy 208.28 92.71) (xy 185.42 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2417,13 +2427,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 185.42 111.76)
+			(xy 179.07 113.03) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "560db4c8-ea56-4c82-ab16-2c0762839062")
+		(uuid "521a17ab-c77a-4fea-a4b9-c08474e6a03c")
 	)
 	(wire
 		(pts
@@ -2829,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 185.42 111.76)
+			(xy 130.81 115.57) (xy 185.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2979,6 +2989,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 92.71) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d491181a-a9ca-43ec-bbc6-f780debdd1b0")
+	)
+	(wire
+		(pts
 			(xy 130.81 143.51) (xy 180.34 143.51)
 		)
 		(stroke
@@ -3019,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 208.28 111.76)
+			(xy 185.42 115.57) (xy 208.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4782,26 +4802,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{Dry_Through}" input
-			(at 223.52 158.75 90)
-			(uuid "385ec90c-90a5-4263-ad6c-3734e19954ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{Hi-Z}" input
-			(at 220.98 158.75 90)
-			(uuid "573091d0-d7c3-4612-bb5c-e3f537aa7a85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7"
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(pin "+2.5VA" input
-			(at 208.28 90.17 180)
+			(at 208.28 92.71 180)
 			(uuid "6e32cc4a-f622-4e60-9d42-c7bdb9ba678a")
 			(effects
 				(font
@@ -5056,6 +5056,16 @@
 		(pin "Footswitch_2" input
 			(at 247.65 97.79 270)
 			(uuid "36d8735c-ded6-4d94-a53a-0c6911eb9e1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3VA2" input
+			(at 208.28 90.17 180)
+			(uuid "1a908db9-854f-4983-8c3d-7d525e92323a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,28 +5347,8 @@
 			)
 		)
 		(pin "2.5V_VREF" input
-			(at 208.28 111.76 180)
+			(at 208.28 115.57 180)
 			(uuid "343abbdc-7cb5-4435-91cc-91944b49bd51")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{Dry_Through}" input
-			(at 223.52 143.51 270)
-			(uuid "92a8d1ae-f269-4fff-ab9c-e920534639ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{Hi-Z}" input
-			(at 220.98 143.51 270)
-			(uuid "140c1fd7-8d83-4e81-bdee-8252cb51dc27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,8 +5599,18 @@
 			)
 		)
 		(pin "+2.5VA" input
-			(at 130.81 111.76 0)
+			(at 130.81 115.57 0)
 			(uuid "766cebc1-b6fa-41a7-9523-76c3fe7f3fb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3VA2" input
+			(at 130.81 113.03 0)
+			(uuid "d8efaad6-d66e-4381-bfc7-bff1b6a7bd25")
 			(effects
 				(font
 					(size 1.27 1.27)

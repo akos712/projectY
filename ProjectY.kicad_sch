@@ -1929,6 +1929,16 @@
 		)
 		(uuid "63ba6211-7e4f-4e5c-870e-dabaac6b39bd")
 	)
+	(text "GIT TEST\n"
+		(exclude_from_sim no)
+		(at 102.87 44.958 0)
+		(effects
+			(font
+				(size 25.4 25.4)
+			)
+		)
+		(uuid "d577ee1d-6d38-49f9-b801-d900213d1036")
+	)
 	(junction
 		(at 83.82 251.46)
 		(diameter 0)

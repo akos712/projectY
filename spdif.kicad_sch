@@ -2895,7 +2895,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Diodes:Schottky,BAT54WS"
+		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,SMF6.0CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2914,7 +2914,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BAT54WS"
+			(property "Value" "SMF6.0CA"
 				(at 2.032 -1.2122 0)
 				(effects
 					(font
@@ -2923,7 +2923,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+			(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2932,7 +2932,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281443_hongjiacheng-BAT54WS_C7502694.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271608_Liown-SMF6-0CA_C2990473.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2941,7 +2941,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Independent Type 200mA 1V@100mA SOD-323 Schottky Diodes ROHS"
+			(property "Description" "19.4A 10.3V 200W 6.67V 6V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2950,7 +2950,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C7502694"
+			(property "LCSC" "C2990473"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2959,7 +2959,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "89670"
+			(property "Stock" "20904"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2968,7 +2968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.014USD"
+			(property "Price" "0.033USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2986,7 +2986,7 @@
 					(hide yes)
 				)
 			)
-			(property "Minimum Qty" "20"
+			(property "Minimum Qty" "15"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2995,7 +2995,7 @@
 					(hide yes)
 				)
 			)
-			(property "Attrition Qty" "6"
+			(property "Attrition Qty" "8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3013,7 +3013,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(property "Category" "TVS/Fuse/Board Level Protection,TVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3022,7 +3022,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "hongjiacheng"
+			(property "Manufacturer" "Liown"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3031,7 +3031,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "BAT54WS"
+			(property "Part" "SMF6.0CA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3040,7 +3040,7 @@
 					(hide yes)
 				)
 			)
-			(property "Forward Voltage (Vf@If)" "1V@100mA"
+			(property "Type" "TVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3049,7 +3049,7 @@
 					(hide yes)
 				)
 			)
-			(property "Reverse Voltage (Vr)" "30V"
+			(property "Peak Pulse Power Dissipation (Ppp)" "200W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3058,7 +3058,7 @@
 					(hide yes)
 				)
 			)
-			(property "Average Rectified Current (Io)" "200mA"
+			(property "Breakdown Voltage" "6.67V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3067,7 +3067,7 @@
 					(hide yes)
 				)
 			)
-			(property "Diode Configuration" "Single"
+			(property "Maximum Clamping Voltage" "10.3V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3076,7 +3076,7 @@
 					(hide yes)
 				)
 			)
-			(property "Peak forward surge current" "600mA"
+			(property "Peak Pulse Current (Ipp)" "19.4A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3085,7 +3085,16 @@
 					(hide yes)
 				)
 			)
-			(property "Reverse Leakage Current (Ir)" "2uA"
+			(property "Reverse Stand-Off Voltage (Vrwm)" "6V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "400uA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3103,10 +3112,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Schottky,BAT54WS_0_1"
+			(symbol "TVS-Bi,SMF6.0CA_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+						(xy -1.905 -0.635) (xy -1.27 0) (xy 1.27 0) (xy 1.905 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -3118,7 +3127,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
+						(xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -3129,7 +3150,7 @@
 					)
 				)
 			)
-			(symbol "Schottky,BAT54WS_1_1"
+			(symbol "TVS-Bi,SMF6.0CA_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.81)
@@ -3159,6 +3180,276 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Resistors:0402,100kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25741"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "7764145"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF1003TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "100kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,100kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,100kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3709,546 +4000,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Resistors:0402,120Ω"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "120Ω"
-				(at 0 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:R_0402"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C25079"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "424372"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.004USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Resistors,Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "0402WGF1200TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Resistance" "120Ω"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power(Watts)" "62.5mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "Thick Film Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Overload Voltage (Max)" "50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature Range" "-55°C~+155°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature Coefficient" "±100ppm/°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402,120Ω_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402,120Ω_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Resistors:0402,1MΩ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1MΩ"
-				(at 0 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:R_0402"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C26083"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "3292115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.004USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Resistors,Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "0402WGF1004TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Resistance" "1MΩ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power(Watts)" "62.5mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "Thick Film Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Overload Voltage (Max)" "50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature Range" "-55°C~+155°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature Coefficient" "±100ppm/°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402,1MΩ_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402,1MΩ_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Resistors:0402,2kΩ"
 			(pin_numbers
 				(hide yes)
@@ -4519,16 +4270,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC846BS"
+		(symbol "PCM_JLCPCB-Resistors:0805,220Ω"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "R"
+				(at 1.778 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4536,17 +4289,17 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC846BS"
-				(at 5.08 -1.27 0)
+			(property "Value" "220Ω"
+				(at 0 0 90)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
+			(property "Footprint" "PCM_JLCPCB:R_0805"
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4554,7 +4307,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846BS.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4563,7 +4316,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 220Ω 0805 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4572,15 +4325,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
+			(property "LCSC" "C17557"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4589,7 +4334,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?363*"
+			(property "Stock" "576694"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4598,58 +4343,154 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC846BS_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
+			(property "Price" "0.005USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0805W8F2200T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "220Ω"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "125mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "150V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0805,220Ω_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4658,60 +4499,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "BC846BS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "0805,220Ω_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4726,222 +4519,10 @@
 						)
 					)
 				)
-			)
-			(symbol "BC846BS_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC856BS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC856BS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PNP/PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC856BS_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC856BS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4949,98 +4530,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BC856BS_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5327,8 +4816,8 @@
 		)
 	)
 	(rectangle
-		(start 242.57 19.05)
-		(end 400.05 110.49)
+		(start 320.04 16.51)
+		(end 405.13 72.39)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5338,20 +4827,9 @@
 		)
 		(uuid ff5f738c-1eb6-4b92-b1dd-924c2eb04753)
 	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 376.682 84.328 0)
-		(effects
-			(font
-				(size 2 2)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "6c630aa6-55f3-418a-a777-8741c4bfc08a")
-	)
 	(text "MIDI\n"
 		(exclude_from_sim no)
-		(at 251.46 24.384 0)
+		(at 329.184 21.336 0)
 		(effects
 			(font
 				(size 5 5)
@@ -5360,10 +4838,10 @@
 		(uuid "aba83259-eb94-4024-bd5a-5bf910cb25ca")
 	)
 	(junction
-		(at 360.68 46.99)
+		(at 383.54 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d0ebd42-e7ac-4cbd-9eec-f6b96b6b9065")
+		(uuid "00d06d5b-7c43-480f-969d-d56e67405530")
 	)
 	(junction
 		(at 38.1 107.95)
@@ -5372,22 +4850,10 @@
 		(uuid "0e9db195-41b2-4329-b77e-bab1e9a0ecdc")
 	)
 	(junction
-		(at 264.16 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fc3c571-dedc-48e8-9d47-68d0b8edcdf0")
-	)
-	(junction
 		(at 144.78 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b683770-d1b9-4650-b1a7-779212945c98")
-	)
-	(junction
-		(at 368.3 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c45161c-a643-454e-a005-fb84a8dc69ad")
 	)
 	(junction
 		(at 138.43 76.2)
@@ -5396,22 +4862,10 @@
 		(uuid "1ce78b42-6fe2-4ef9-b686-72c67cb04da2")
 	)
 	(junction
-		(at 353.06 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "222d4e2f-d7f7-49ca-aaa2-b1e57572bf0f")
-	)
-	(junction
 		(at 138.43 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2335cc2d-681d-47b3-8f1d-dbb7921c5e2d")
-	)
-	(junction
-		(at 369.57 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24f8f9c6-9e2e-4648-b427-4c90a34533ee")
 	)
 	(junction
 		(at 160.02 26.67)
@@ -5426,40 +4880,16 @@
 		(uuid "2f5fd5ab-3734-4080-ac2d-838a0f18c185")
 	)
 	(junction
-		(at 264.16 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35a563f5-2d4b-4b29-ac3a-3bed9e4aed22")
-	)
-	(junction
-		(at 373.38 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37896345-d457-431b-a414-66b5a5867838")
-	)
-	(junction
-		(at 360.68 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3a58bd-a2fa-4a14-b0ca-477bc372437f")
-	)
-	(junction
 		(at 62.23 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c2cca7-51b4-444b-b448-2e8213c9defc")
 	)
 	(junction
-		(at 349.25 222.25)
+		(at 351.79 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49e48b2f-6389-4ba4-bcad-acf2cf011e82")
-	)
-	(junction
-		(at 271.78 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c8b2647-07b1-4c4c-9b3e-dfb0a7fbe310")
 	)
 	(junction
 		(at 38.1 157.48)
@@ -5474,40 +4904,22 @@
 		(uuid "5007f77a-e065-481e-b651-c69617bb7654")
 	)
 	(junction
-		(at 373.38 22.86)
+		(at 355.6 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55d04cbb-a7f2-4617-baa1-736ebd63f0dd")
+		(uuid "566f77b3-bfa4-48e8-83c9-9872d726e904")
+	)
+	(junction
+		(at 341.63 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5795afa3-5b47-40fd-9b4f-98330232692c")
 	)
 	(junction
 		(at 62.23 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ab888fe-c1f1-488a-9b1d-8efaa4a99b92")
-	)
-	(junction
-		(at 360.68 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62f7c5e6-a642-40a9-9e7c-f75655a8c4b0")
-	)
-	(junction
-		(at 368.3 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62fdc3d3-7328-411e-83a1-0b7f663a0dc8")
-	)
-	(junction
-		(at 353.06 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "631e803c-d0cb-4d07-94ee-4c0fd9614351")
-	)
-	(junction
-		(at 373.38 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65f35f82-1bf1-421f-8e66-adc4f8390fcf")
 	)
 	(junction
 		(at 62.23 110.49)
@@ -5528,28 +4940,10 @@
 		(uuid "6db36304-fbc7-4465-ae7f-8f875cedc54f")
 	)
 	(junction
-		(at 368.3 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6de2976c-da40-4669-a6a6-de7eb1a7193b")
-	)
-	(junction
-		(at 264.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "701be7d9-7ff2-4a79-b74c-6032bc14713d")
-	)
-	(junction
 		(at 38.1 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7357f746-8e7d-4b6d-b752-90d286d15b57")
-	)
-	(junction
-		(at 360.68 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76d1a787-42b3-45e2-85c4-6ab42692be4b")
 	)
 	(junction
 		(at 62.23 160.02)
@@ -5576,12 +4970,6 @@
 		(uuid "8ce21120-07d2-444e-b4c7-f348c6618376")
 	)
 	(junction
-		(at 353.06 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "951d0c02-e0bb-49d6-affe-70e1876f128c")
-	)
-	(junction
 		(at 138.43 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5594,28 +4982,16 @@
 		(uuid "9f056de9-ca21-4072-a21c-99a845ed4af0")
 	)
 	(junction
-		(at 373.38 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a63b3100-813e-4a88-8789-b9d566e9190f")
-	)
-	(junction
 		(at 160.02 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9fc1198-2bac-41ae-b4e5-4adc8e218569")
 	)
 	(junction
-		(at 368.3 222.25)
+		(at 370.84 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc5526bb-e60c-41a3-bb3c-cb51d6a4003a")
-	)
-	(junction
-		(at 271.78 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf036572-d1aa-4488-a720-14360760ffa9")
 	)
 	(junction
 		(at 144.78 52.07)
@@ -5624,7 +5000,7 @@
 		(uuid "c2712169-c335-416b-9ab1-f4893dcbd918")
 	)
 	(junction
-		(at 387.35 222.25)
+		(at 389.89 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5faa7b0-cae8-4ea3-a6bf-a03a568c316a")
@@ -5642,22 +5018,22 @@
 		(uuid "cae129d6-f367-46a0-ba56-1b78cda921db")
 	)
 	(junction
-		(at 353.06 46.99)
+		(at 341.63 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddc57c91-4d1b-469b-a129-96f2ad36787f")
+		(uuid "d41d8910-31ba-43ad-b122-051e0d4c5b24")
+	)
+	(junction
+		(at 355.6 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db364946-f6f1-4746-a4a1-cd3df4f9eac2")
 	)
 	(junction
 		(at 38.1 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de909d8b-685e-46e4-be7b-f39f50a0a865")
-	)
-	(junction
-		(at 271.78 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4585c40-362d-42b3-ad33-9e5125a69618")
 	)
 	(junction
 		(at 138.43 130.81)
@@ -5670,12 +5046,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5dd6b62-6a66-4648-8037-eeb4906806e9")
-	)
-	(junction
-		(at 368.3 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e899d78c-d071-46fc-b310-cd7737c46878")
 	)
 	(wire
 		(pts
@@ -5699,6 +5069,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 83.82) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aaa0240-652f-4e87-991a-0fc6ae77dfbe")
+	)
+	(wire
+		(pts
 			(xy 46.99 162.56) (xy 46.99 167.64)
 		)
 		(stroke
@@ -5709,13 +5089,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 62.23 55.88)
+			(xy 346.71 63.5) (xy 355.6 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d4be4e4-1855-40ee-8ad8-40ef0ab7ba2f")
+		(uuid "0c37054f-bd0f-4ba3-b767-2f89587244fe")
 	)
 	(wire
 		(pts
@@ -5726,16 +5106,6 @@
 			(type default)
 		)
 		(uuid "0e46ec28-aeeb-408a-9d0b-edc9bc84927d")
-	)
-	(wire
-		(pts
-			(xy 264.16 36.83) (xy 264.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f868c8e-a07e-4eaa-b67f-6f1bd9046dfb")
 	)
 	(wire
 		(pts
@@ -5759,16 +5129,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 30.48) (xy 360.68 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1085cea8-129d-4dfa-92d6-fb49ab6fcb03")
-	)
-	(wire
-		(pts
 			(xy 153.67 115.57) (xy 165.1 115.57)
 		)
 		(stroke
@@ -5776,16 +5136,6 @@
 			(type default)
 		)
 		(uuid "13fc1bfb-9522-4cf7-b94e-fb72af256b9f")
-	)
-	(wire
-		(pts
-			(xy 345.44 39.37) (xy 353.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b68219-e04d-4215-a76c-f25137a8fe97")
 	)
 	(wire
 		(pts
@@ -5799,13 +5149,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 62.23 29.21)
+			(xy 341.63 223.52) (xy 351.79 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1acedc70-c4ce-45b8-b14c-2647a4475c95")
+		(uuid "1cb0aa9d-a540-4e1a-a230-5536b6283563")
+	)
+	(wire
+		(pts
+			(xy 383.54 41.91) (xy 392.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212a1801-d177-4bde-b70c-7da0146c8988")
 	)
 	(wire
 		(pts
@@ -5829,7 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 236.22) (xy 396.24 233.68)
+			(xy 398.78 237.49) (xy 398.78 234.95)
 		)
 		(stroke
 			(width 0)
@@ -5856,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "2e4c68b4-6514-475f-8b29-0ba87c3fcefc")
-	)
-	(wire
-		(pts
-			(xy 353.06 39.37) (xy 360.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fb712f8-ecb7-40cc-a8da-b77fdb82ee34")
 	)
 	(wire
 		(pts
@@ -5899,16 +5249,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 22.86) (xy 368.3 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac3a184-57f4-438e-958b-1b72cd860dd3")
-	)
-	(wire
-		(pts
 			(xy 46.99 31.75) (xy 46.99 36.83)
 		)
 		(stroke
@@ -5919,17 +5259,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 62.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c700db3-0358-4949-ad44-913efe3c07d8")
-	)
-	(wire
-		(pts
-			(xy 97.79 245.11) (xy 113.03 245.11)
+			(xy 45.72 189.23) (xy 60.96 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5959,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 222.25) (xy 349.25 222.25)
+			(xy 330.2 223.52) (xy 341.63 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5979,23 +5309,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 266.7) (xy 113.03 266.7)
+			(xy 45.72 210.82) (xy 60.96 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "460894c1-b5d3-4b4d-805f-27b5c409ae8b")
-	)
-	(wire
-		(pts
-			(xy 353.06 22.86) (xy 360.68 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "473ac67c-03d4-46bb-b170-98d806213724")
 	)
 	(wire
 		(pts
@@ -6079,26 +5399,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 46.99) (xy 360.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc28a6c-1f5a-47f5-a8a4-44caa730f568")
-	)
-	(wire
-		(pts
-			(xy 360.68 30.48) (xy 368.3 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601b8444-ac76-4f80-a361-64f457bf2d6c")
-	)
-	(wire
-		(pts
 			(xy 153.67 76.2) (xy 165.1 76.2)
 		)
 		(stroke
@@ -6109,36 +5409,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 97.79) (xy 271.78 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6087a973-d023-43ee-b249-023fdd5cbdc8")
-	)
-	(wire
-		(pts
-			(xy 264.16 78.74) (xy 264.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62226c2a-6144-4be3-8503-e19afe0cd6d6")
-	)
-	(wire
-		(pts
-			(xy 271.78 43.18) (xy 264.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694d0c0b-ad23-4cd7-b915-fcc0d62b9358")
-	)
-	(wire
-		(pts
 			(xy 26.67 26.67) (xy 27.94 26.67)
 		)
 		(stroke
@@ -6146,26 +5416,6 @@
 			(type default)
 		)
 		(uuid "6b1467b2-58b0-4bbe-9c98-b418f4c8c12d")
-	)
-	(wire
-		(pts
-			(xy 345.44 30.48) (xy 353.06 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70fb5543-b393-4669-bc8a-e15aa1477816")
-	)
-	(wire
-		(pts
-			(xy 292.1 80.01) (xy 271.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71047590-acc3-4bd9-8088-30ed4f63c787")
 	)
 	(wire
 		(pts
@@ -6199,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 226.06) (xy 387.35 222.25)
+			(xy 389.89 227.33) (xy 389.89 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6259,16 +5509,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 39.37) (xy 373.38 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c78d0d-9de6-423d-b736-499f3c5782db")
-	)
-	(wire
-		(pts
 			(xy 26.67 133.35) (xy 27.94 133.35)
 		)
 		(stroke
@@ -6289,23 +5529,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 261.62) (xy 97.79 266.7)
+			(xy 45.72 205.74) (xy 45.72 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92b43535-7134-4f10-98c3-47d0e8f23b29")
-	)
-	(wire
-		(pts
-			(xy 367.03 88.9) (xy 369.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b9751b-aa9f-449b-b8f9-7f92d7154443")
 	)
 	(wire
 		(pts
@@ -6326,16 +5556,6 @@
 			(type default)
 		)
 		(uuid "989dca4d-fabb-4f4d-8fd2-e4b821f27f2b")
-	)
-	(wire
-		(pts
-			(xy 360.68 46.99) (xy 368.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9944d6a7-685a-4bcf-9aa2-6b5db65d4a94")
 	)
 	(wire
 		(pts
@@ -6389,16 +5609,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 30.48) (xy 373.38 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6cfd484-6e22-46bc-89d8-9e71b5b922b0")
-	)
-	(wire
-		(pts
 			(xy 46.99 58.42) (xy 46.99 64.77)
 		)
 		(stroke
@@ -6419,16 +5629,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 22.86) (xy 353.06 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa281828-2cff-4d38-95fc-6c02ce09b91c")
-	)
-	(wire
-		(pts
 			(xy 38.1 26.67) (xy 46.99 26.67)
 		)
 		(stroke
@@ -6439,7 +5639,17 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 222.25) (xy 387.35 222.25)
+			(xy 346.71 55.88) (xy 355.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac29f7c9-83eb-4bcb-80f2-070fd7789bc2")
+	)
+	(wire
+		(pts
+			(xy 370.84 223.52) (xy 389.89 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6449,33 +5659,13 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 46.99) (xy 373.38 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1bb0de6-06c7-467c-9031-d983ffcf46e4")
-	)
-	(wire
-		(pts
-			(xy 373.38 22.86) (xy 381 22.86)
+			(xy 355.6 55.88) (xy 368.3 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2087517-42a4-49e9-bb2d-e0b2a651267a")
-	)
-	(wire
-		(pts
-			(xy 373.38 39.37) (xy 381 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22e694c-4752-4fec-9ae8-6e22e65382ce")
 	)
 	(wire
 		(pts
@@ -6499,27 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 46.99) (xy 353.06 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb16c28a-8378-4c5e-8ec2-3436ee5ff8d1")
-	)
-	(wire
-		(pts
-			(xy 264.16 95.25) (xy 264.16 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb631c07-ec1c-483b-88f3-98dcd7cfe566")
-	)
-	(wire
-		(pts
-			(xy 97.79 241.3) (xy 97.79 245.11)
+			(xy 45.72 185.42) (xy 45.72 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6529,7 +5699,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 222.25) (xy 396.24 226.06)
+			(xy 398.78 223.52) (xy 398.78 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6559,23 +5729,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 245.11) (xy 113.03 238.76)
+			(xy 69.85 29.21) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e4d691-ca20-4e0f-a599-309c8ee308de")
+	)
+	(wire
+		(pts
+			(xy 60.96 189.23) (xy 60.96 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c23ac470-5f1b-44ca-ab4d-0c7f2019a610")
-	)
-	(wire
-		(pts
-			(xy 368.3 22.86) (xy 373.38 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c555c16e-0e29-4558-87a2-7a012a707068")
 	)
 	(wire
 		(pts
@@ -6599,13 +5769,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 97.79) (xy 271.78 100.33)
+			(xy 346.71 41.91) (xy 365.76 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d46a414f-9e79-4fb0-b961-8e0d22e4edbd")
+		(uuid "d06b2c51-e715-462d-8564-921ba4ee830e")
 	)
 	(wire
 		(pts
@@ -6659,6 +5829,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 231.14) (xy 341.63 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5c4a4b-c0d1-4415-8698-06c98cd05c3e")
+	)
+	(wire
+		(pts
 			(xy 138.43 76.2) (xy 138.43 81.28)
 		)
 		(stroke
@@ -6669,7 +5849,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 222.25) (xy 368.3 222.25)
+			(xy 351.79 223.52) (xy 370.84 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6689,7 +5869,17 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 222.25) (xy 396.24 222.25)
+			(xy 71.12 110.49) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcba78bc-4318-44df-807d-5ae648d24ddf")
+	)
+	(wire
+		(pts
+			(xy 389.89 223.52) (xy 398.78 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6709,13 +5899,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 43.18) (xy 264.16 45.72)
+			(xy 354.33 46.99) (xy 365.76 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfd9413e-8d1f-4490-b880-dd697db42495")
+		(uuid "e2c282ff-e5dd-4b18-9c1f-bf3a6c27d31c")
 	)
 	(wire
 		(pts
@@ -6729,13 +5919,13 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 60.96) (xy 271.78 60.96)
+			(xy 69.85 55.88) (xy 71.12 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e73a8b6b-6203-4f9f-bcda-5b67d3054942")
+		(uuid "e46480ff-8fc7-4ef8-8e2d-a5a7f6c5e159")
 	)
 	(wire
 		(pts
@@ -6749,7 +5939,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 233.68) (xy 387.35 236.22)
+			(xy 389.89 234.95) (xy 389.89 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6789,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 88.9) (xy 378.46 88.9)
+			(xy 381 41.91) (xy 383.54 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6799,23 +5989,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 266.7) (xy 113.03 259.08)
+			(xy 60.96 210.82) (xy 60.96 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1482dff-70ad-4a96-9319-4f61c86039b1")
-	)
-	(wire
-		(pts
-			(xy 360.68 39.37) (xy 368.3 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34b3d62-c553-4496-b5ac-390034a42944")
 	)
 	(wire
 		(pts
@@ -6837,9 +6017,75 @@
 		)
 		(uuid "fe52c0d6-8c70-436d-99d9-b84be746e7ff")
 	)
+	(global_label "+3.3VA2_Midpoint"
+		(shape input)
+		(at 45.72 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b008bde-6cb4-4f19-8e83-a68e3904ea0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8016 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3VA2_Midpoint"
+		(shape input)
+		(at 45.72 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e0dac40-2d71-44ed-b552-82f1e051fddf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8016 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3VA2_Midpoint"
+		(shape input)
+		(at 335.28 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9feba677-9cc3-4853-be1c-2cdde3f30626")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.3616 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "UART0_RX"
 		(shape input)
-		(at 378.46 88.9 0)
+		(at 392.43 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6916,7 +6162,7 @@
 	)
 	(hierarchical_label "MIDI IN Shield"
 		(shape input)
-		(at 381 22.86 0)
+		(at 368.3 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6938,7 +6184,7 @@
 	)
 	(hierarchical_label "+3.3VA2"
 		(shape input)
-		(at 347.98 222.25 180)
+		(at 330.2 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6957,6 +6203,17 @@
 			(justify left)
 		)
 		(uuid "803402bc-974e-444c-ba28-8fe40838c6b5")
+	)
+	(hierarchical_label "Midi In Sink"
+		(shape input)
+		(at 346.71 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8520321a-a0e9-4491-b193-ff40edd5c7f5")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
@@ -6993,7 +6250,7 @@
 	)
 	(hierarchical_label "Potentiometer_4"
 		(shape input)
-		(at 69.85 110.49 0)
+		(at 71.12 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7013,20 +6270,9 @@
 		)
 		(uuid "9d2c9c78-e985-4a0e-a5a7-aadddf91ae45")
 	)
-	(hierarchical_label "UART0_TX"
-		(shape input)
-		(at 256.54 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a75884ae-485c-42bf-ab86-743ccbca9cbe")
-	)
 	(hierarchical_label "Midi In Source"
 		(shape input)
-		(at 351.79 88.9 180)
+		(at 346.71 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7092,7 +6338,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 369.57 81.28 90)
+		(at 383.54 34.29 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7111,17 +6357,6 @@
 			(justify left)
 		)
 		(uuid "d2ef4e73-e64c-4c6b-aecf-4ab4d4465d0b")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 264.16 36.83 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5118033-6d8f-433b-8422-282f77c7e530")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
@@ -7156,17 +6391,6 @@
 		)
 		(uuid "d99f0c7a-ebb3-4fc7-9b5f-b6fcf7acbef0")
 	)
-	(hierarchical_label "Midi In Sink"
-		(shape input)
-		(at 351.79 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dae03baf-30ce-48c2-aec1-66f30b83e71f")
-	)
 	(hierarchical_label "+2.5VA"
 		(shape input)
 		(at 22.86 104.14 90)
@@ -7178,17 +6402,6 @@
 		)
 		(uuid "e343bff3-06c2-4e86-8174-b7ebe6124162")
 	)
-	(hierarchical_label "MIDI Out Sink"
-		(shape input)
-		(at 292.1 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e57fa295-c47a-4891-abee-1c88eef5a9b6")
-	)
 	(hierarchical_label "+2.5VA"
 		(shape input)
 		(at 22.86 49.53 90)
@@ -7199,28 +6412,6 @@
 			(justify left)
 		)
 		(uuid "f213eb24-e4fc-4baa-8177-c4d29a717435")
-	)
-	(hierarchical_label "MIDI Out Source"
-		(shape input)
-		(at 292.1 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f516f48f-f0ac-4e88-a42d-8eac5c8ac5f4")
-	)
-	(hierarchical_label "MIDI OUT Shield"
-		(shape input)
-		(at 381 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fcb822f9-ea6e-439e-9948-0740e1c363c6")
 	)
 	(hierarchical_label "Potentiometer_6"
 		(shape input)
@@ -7652,18 +6843,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC846BS")
-		(at 266.7 90.17 0)
-		(mirror y)
-		(unit 2)
+		(lib_id "PCM_JLCPCB-Resistors:0402,100kΩ")
+		(at 341.63 227.33 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "023ab463-e166-4636-8692-5a8ae964dc73")
-		(property "Reference" "Q3"
-			(at 261.62 88.8999 0)
+		(uuid "05d1ce40-9442-409e-b960-26dbb2481c97")
+		(property "Reference" "R4"
+			(at 344.17 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,26 +6861,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC846BS"
-			(at 261.62 91.4399 0)
+		(property "Value" "100kΩ"
+			(at 341.63 227.33 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 261.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846BS.pdf"
-			(at 266.7 90.17 0)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 339.852 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,8 +6879,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 266.7 90.17 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 341.63 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,29 +6888,179 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8f591cab-606d-4b14-a621-6d78c000ea23")
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "1c675205-a161-4f22-a830-f0b60a674e12")
+		(property "LCSC" "C25741"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7764145"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1003TCE"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100kΩ"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 341.63 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "fc778395-b85a-4d1c-b96a-2ba5e1ae8fa7")
+			(uuid "aaa61aac-2e28-4267-821e-42394af282fb")
 		)
-		(pin "5"
-			(uuid "aa89d981-155b-4843-90aa-4dcca2c2e0d8")
-		)
-		(pin "4"
-			(uuid "cb2fb645-2639-47e0-9448-12399494e0c7")
-		)
-		(pin "3"
-			(uuid "c1ff4295-d486-4df8-9f9c-bdee0af92200")
+		(pin "2"
+			(uuid "6dbae84f-42d2-4da2-aab6-0a293d6b38ef")
 		)
 		(instances
-			(project "ProjectY"
+			(project ""
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "Q3")
-					(unit 2)
+					(reference "R4")
+					(unit 1)
 				)
 			)
 		)
@@ -8104,7 +7435,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9004xRUCR")
-		(at 105.41 259.08 0)
+		(at 53.34 203.2 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8113,7 +7444,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee97d0f-80db-44a8-8dcd-f7a76221063e")
 		(property "Reference" "U26"
-			(at 105.41 248.92 0)
+			(at 53.34 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +7452,7 @@
 			)
 		)
 		(property "Value" "TLV9004xRUCR"
-			(at 105.41 251.46 0)
+			(at 53.34 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_S-PX2QFN-14"
-			(at 105.41 259.08 0)
+			(at 53.34 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +7469,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv9004.pdf"
-			(at 106.68 254 0)
+			(at 54.61 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +7478,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, Texas S-PX2QFN-14"
-			(at 105.41 259.08 0)
+			(at 53.34 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 387.35 236.22 0)
+		(at 389.89 237.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8703,7 +8034,7 @@
 		(fields_autoplaced yes)
 		(uuid "12bcbe2f-921f-4b41-99e8-45db7152dbb9")
 		(property "Reference" "#PWR09"
-			(at 387.35 242.57 0)
+			(at 389.89 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +8043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 387.35 241.3 0)
+			(at 389.89 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 236.22 0)
+			(at 389.89 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 236.22 0)
+			(at 389.89 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +8069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 236.22 0)
+			(at 389.89 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8091,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 67.31 55.88 90)
+		(at 66.04 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8768,7 +8099,7 @@
 		(dnp no)
 		(uuid "14fbf2de-9e42-47d6-aa14-2d45ea2cbcac")
 		(property "Reference" "R105"
-			(at 67.31 52.07 90)
+			(at 66.04 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8107,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 67.31 55.88 90)
+			(at 66.04 55.88 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8785,7 +8116,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 67.31 57.658 90)
+			(at 66.04 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8125,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8134,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8143,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8152,7 @@
 			)
 		)
 		(property "Stock" "5907585"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8161,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +8170,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,7 +8179,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,7 +8188,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +8197,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +8206,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8215,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +8224,7 @@
 			)
 		)
 		(property "Part" "0402WGF1000TCE"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8233,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +8242,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8251,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +8260,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +8269,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +8278,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +8287,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 67.31 55.88 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,296 +8373,6 @@
 			(project ""
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 373.38 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22e4ae1c-ee8c-49f7-a826-1b016aa54292")
-		(property "Reference" "#PWR0128"
-			(at 373.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 373.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82afbd81-968a-4a42-80ae-d6b42c523551")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,120Ω")
-		(at 271.78 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23f110d3-398c-4234-a8cf-3aec52d891b5")
-		(property "Reference" "R30"
-			(at 274.32 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 271.78 93.98 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 270.002 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25079"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "424372"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1200TCE"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "120Ω"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "123f5b3d-dba6-4608-900c-f9f09fb57ffa")
-		)
-		(pin "1"
-			(uuid "76e3b501-87d5-497a-a046-ce703b718323")
-		)
-		(instances
-			(project ""
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9443,7 +8484,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 67.31 29.21 90)
+		(at 66.04 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9451,7 +8492,7 @@
 		(dnp no)
 		(uuid "2d742df0-c1ee-4ab8-a627-da16c0b1f5c8")
 		(property "Reference" "R104"
-			(at 67.31 25.4 90)
+			(at 66.04 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +8500,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 67.31 29.21 90)
+			(at 66.04 29.21 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9468,7 +8509,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 67.31 30.988 90)
+			(at 66.04 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +8518,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +8527,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +8536,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +8545,7 @@
 			)
 		)
 		(property "Stock" "5907585"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +8554,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +8563,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +8572,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +8581,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +8590,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +8599,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +8608,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +8617,7 @@
 			)
 		)
 		(property "Part" "0402WGF1000TCE"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +8626,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +8635,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +8644,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +8653,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +8662,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +8671,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +8680,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 67.31 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +8712,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2db8c8a1-c5da-4b4c-95fb-81e42b53ef36")
 		(property "Reference" "#PWR0124"
 			(at 389.89 215.9 0)
@@ -10165,7 +9205,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9004xRUCR")
-		(at 105.41 238.76 0)
+		(at 53.34 182.88 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10174,7 +9214,7 @@
 		(fields_autoplaced yes)
 		(uuid "337809e8-a0ea-4c89-86b1-c5b9981a905d")
 		(property "Reference" "U26"
-			(at 105.41 228.6 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +9222,7 @@
 			)
 		)
 		(property "Value" "TLV9004xRUCR"
-			(at 105.41 231.14 0)
+			(at 53.34 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +9230,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_S-PX2QFN-14"
-			(at 105.41 238.76 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +9239,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv9004.pdf"
-			(at 106.68 233.68 0)
+			(at 54.61 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +9248,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, Texas S-PX2QFN-14"
-			(at 105.41 238.76 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11854,7 +10894,7 @@
 	(symbol
 		(lib_name "0402,100nF_1")
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 387.35 229.87 0)
+		(at 389.89 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11863,7 +10903,7 @@
 		(fields_autoplaced yes)
 		(uuid "4afe7ef6-07e3-498e-8189-b018e288df8d")
 		(property "Reference" "C97"
-			(at 389.89 227.3299 0)
+			(at 392.43 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11872,7 +10912,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 389.89 229.87 0)
+			(at 392.43 231.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11881,7 +10921,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 385.572 229.87 90)
+			(at 388.112 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11890,7 +10930,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11899,7 +10939,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +10948,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +10957,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +10966,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +10975,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +10984,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11953,7 +10993,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11002,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +11011,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +11020,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11029,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +11038,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 389.89 232.41 0)
+			(at 392.43 233.68 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12007,7 +11047,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +11056,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +11065,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 387.35 229.87 0)
+			(at 389.89 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,89 +11311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC856BS")
-		(at 269.24 55.88 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52aef2e0-736e-4f22-89d9-c190577677dd")
-		(property "Reference" "Q4"
-			(at 274.32 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC856BS"
-			(at 274.32 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 274.32 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf"
-			(at 269.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363"
-			(at 269.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "80d0b94a-71bf-40ef-ac1a-ff17ecb285c1")
-		)
-		(pin "1"
-			(uuid "423ea803-5a69-474d-9424-86b3f75344aa")
-		)
-		(pin "2"
-			(uuid "761ba7f7-72ee-41f4-844a-39ba73490c7f")
-		)
-		(pin "3"
-			(uuid "3a01669b-c701-443a-a5f3-9a4287d0a6ed")
-		)
-		(pin "6"
-			(uuid "3353f8e4-6ca7-4f51-8734-4ea15c9a1b43")
-		)
-		(pin "5"
-			(uuid "e02f23c8-6d0c-4634-ade8-b408944aaa71")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 22.86 107.95 0)
 		(unit 1)
@@ -12427,7 +11384,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9004xRUCR")
-		(at 370.84 229.87 0)
+		(at 373.38 231.14 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12436,7 +11393,7 @@
 		(fields_autoplaced yes)
 		(uuid "59f42b8d-a272-42ee-a614-a4ec22ce09e1")
 		(property "Reference" "U25"
-			(at 369.57 228.5999 0)
+			(at 372.11 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +11402,7 @@
 			)
 		)
 		(property "Value" "TLV9004xRUCR"
-			(at 369.57 231.1399 0)
+			(at 372.11 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12454,7 +11411,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_S-PX2QFN-14"
-			(at 370.84 229.87 0)
+			(at 373.38 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,7 +11420,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv9004.pdf"
-			(at 372.11 224.79 0)
+			(at 374.65 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +11429,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, Texas S-PX2QFN-14"
-			(at 370.84 229.87 0)
+			(at 373.38 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,204 +11489,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 345.44 26.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a7f44ae-7916-4163-916e-9774ecd04654")
-		(property "Reference" "C76"
-			(at 342.9 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 342.9 26.67 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 347.218 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6316629"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 342.9 29.21 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 345.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aed6d56d-cc96-4652-9d89-57bc86d9990c")
-		)
-		(pin "1"
-			(uuid "5d5d0168-9d46-427c-848f-fb7ef4dcfc4d")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 367.03 93.98 0)
+		(at 381 46.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12739,7 +11500,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e6666b2-d24d-415f-b93e-d2bca6fd11e0")
 		(property "Reference" "#PWR079"
-			(at 367.03 99.06 0)
+			(at 381 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +11509,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 367.157 97.79 0)
+			(at 381.127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +11517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 367.03 95.25 0)
+			(at 381 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +11526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 95.25 0)
+			(at 381 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +11535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 367.03 93.98 0)
+			(at 381 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12867,231 +11628,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,1MΩ")
-		(at 373.38 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f7dce82-c24a-4f48-b54e-42ac791680a0")
-		(property "Reference" "R4"
-			(at 375.158 40.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1MΩ"
-			(at 376.682 43.18 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 371.602 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.pdf"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C26083"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "3292115"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1004TCE"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1MΩ"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 373.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31cb84ed-bbef-4ed1-aa41-d181c287f11f")
-		)
-		(pin "2"
-			(uuid "243aa62d-341c-41b5-8f67-ce53849baef7")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "0402,100nF_1")
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 396.24 229.87 0)
+		(at 398.78 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13100,7 +11639,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fc519a0-0178-4d9a-b55d-15c0b29c17a1")
 		(property "Reference" "C98"
-			(at 398.78 227.3299 0)
+			(at 401.32 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13109,7 +11648,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 398.78 229.87 0)
+			(at 401.32 231.14 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13118,7 +11657,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 394.462 229.87 90)
+			(at 397.002 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,7 +11666,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13136,7 +11675,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,7 +11684,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +11693,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +11702,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +11711,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +11720,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +11729,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13199,7 +11738,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +11747,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +11756,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +11765,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +11774,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 398.78 232.41 0)
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13244,7 +11783,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +11792,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +11801,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 396.24 229.87 0)
+			(at 398.78 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13795,228 +12334,6 @@
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "R96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,1MΩ")
-		(at 373.38 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "660a57d6-f252-49c0-8c21-0ea54f593fb7")
-		(property "Reference" "R2"
-			(at 375.158 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1MΩ"
-			(at 376.682 26.67 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 371.602 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.pdf"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C26083"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "3292115"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1004TCE"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "1MΩ"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 373.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbb24447-7fc9-424a-8460-dbf773a8c5af")
-		)
-		(pin "2"
-			(uuid "ebe83fe2-f633-4e1f-bfd6-a91a09d18084")
-		)
-		(instances
-			(project ""
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14928,229 +13245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 264.16 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c3f87c9-6332-4cf7-9282-747e627fb570")
-		(property "Reference" "R40"
-			(at 261.62 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 264.16 59.69 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 265.938 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "27671455"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1002TCE"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "10kΩ"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ddc544e-5e40-45d9-9be9-3ec5c5aaaf7d")
-		)
-		(pin "2"
-			(uuid "cdc49b49-a1d3-4623-9194-e20d3191c82d")
-		)
-		(instances
-			(project ""
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 160.02 30.48 0)
 		(unit 1)
@@ -15604,284 +13698,6 @@
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC846BS")
-		(at 269.24 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "762cac2e-36f8-42e8-8be4-6d5d480c0601")
-		(property "Reference" "Q3"
-			(at 274.32 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC846BS"
-			(at 274.32 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 274.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846BS.pdf"
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f591cab-606d-4b14-a621-6d78c000ea24")
-		)
-		(pin "6"
-			(uuid "1c675205-a161-4f22-a830-f0b60a674e13")
-		)
-		(pin "1"
-			(uuid "fc778395-b85a-4d1c-b96a-2ba5e1ae8fa8")
-		)
-		(pin "5"
-			(uuid "aa89d981-155b-4843-90aa-4dcca2c2e0d9")
-		)
-		(pin "4"
-			(uuid "cb2fb645-2639-47e0-9448-12399494e0c8")
-		)
-		(pin "3"
-			(uuid "c1ff4295-d486-4df8-9f9c-bdee0af92201")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 368.3 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76b9b6c0-6d8d-49b4-b55a-42b9740ed5a9")
-		(property "Reference" "C80"
-			(at 365.76 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 365.76 43.18 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 370.078 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6316629"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 365.76 45.72 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 368.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e88cb65b-df6f-4123-a6d0-99d720dd9fc7")
-		)
-		(pin "1"
-			(uuid "0453cd61-cfbe-4b14-92c4-bdd4977dae0f")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -16923,35 +14739,18 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 360.68 43.18 0)
+		(lib_id "power:GND")
+		(at 341.63 238.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8953b03f-8913-4edc-99f4-dd507d0ff079")
-		(property "Reference" "C79"
-			(at 358.14 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 358.14 43.18 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 362.458 43.18 90)
+		(fields_autoplaced yes)
+		(uuid "89cf02f8-803b-4c5f-a38c-ad12b19caa09")
+		(property "Reference" "#PWR0116"
+			(at 341.63 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16959,8 +14758,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 360.68 43.18 0)
+		(property "Value" "GND"
+			(at 341.63 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,8 +14775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 360.68 43.18 0)
+		(property "Datasheet" ""
+			(at 341.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,142 +14784,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 360.68 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 341.63 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Stock" "6316629"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 358.14 45.72 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 360.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "49e5f1e8-f6f8-492a-a529-c0c0c2fd5ac4")
 		)
 		(pin "1"
-			(uuid "3f6010a1-0ccb-4eb7-a2ed-f23b65cdbf1d")
+			(uuid "f89c3dea-a7da-4913-b385-59257c8511c6")
 		)
 		(instances
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C79")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -17120,7 +14807,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9004xRUCR")
-		(at 351.79 229.87 0)
+		(at 354.33 231.14 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17129,7 +14816,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bd3ac74-86a5-4ce8-845d-29e6b47b4a67")
 		(property "Reference" "U26"
-			(at 350.52 228.5999 0)
+			(at 353.06 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17138,7 +14825,7 @@
 			)
 		)
 		(property "Value" "TLV9004xRUCR"
-			(at 350.52 231.1399 0)
+			(at 353.06 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17147,7 +14834,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_S-PX2QFN-14"
-			(at 351.79 229.87 0)
+			(at 354.33 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17156,7 +14843,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv9004.pdf"
-			(at 353.06 224.79 0)
+			(at 355.6 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +14852,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, Texas S-PX2QFN-14"
-			(at 351.79 229.87 0)
+			(at 354.33 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,231 +15269,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 260.35 78.74 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "903a5f84-5eff-4377-a552-e2ab243ee116")
-		(property "Reference" "R45"
-			(at 262.128 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 260.35 78.74 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 260.35 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "27671455"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1002TCE"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "10kΩ"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 260.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bacbc781-8e1f-4897-b74f-43a48632263f")
-		)
-		(pin "2"
-			(uuid "b97f7cdd-a165-4158-a5c3-c895e70953b6")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 396.24 236.22 0)
+		(at 398.78 237.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17816,7 +15280,7 @@
 		(fields_autoplaced yes)
 		(uuid "91046d59-789d-47b1-a92e-335d33349263")
 		(property "Reference" "#PWR010"
-			(at 396.24 242.57 0)
+			(at 398.78 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17825,7 +15289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 396.24 241.3 0)
+			(at 398.78 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17833,7 +15297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 396.24 236.22 0)
+			(at 398.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17842,7 +15306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 396.24 236.22 0)
+			(at 398.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17851,7 +15315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 396.24 236.22 0)
+			(at 398.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17872,18 +15336,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 271.78 100.33 0)
-		(mirror y)
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMF6.0CA")
+		(at 346.71 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95ed916e-070b-4097-95f7-c2e9de00f9a6")
-		(property "Reference" "#PWR0117"
-			(at 271.78 106.68 0)
+		(uuid "9136e996-8ca3-49e5-8199-724ca233dcd8")
+		(property "Reference" "D2"
+			(at 342.9 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF6.0CA"
+			(at 342.9 60.96 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
+			(at 344.932 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17891,16 +15371,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 271.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 100.33 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271608_Liown-SMF6-0CA_C2990473.pdf"
+			(at 346.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,8 +15380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 271.78 100.33 0)
+		(property "Description" "19.4A 10.3V 200W 6.67V 6V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 346.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,89 +15389,169 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 100.33 0)
+		(property "LCSC" "C2990473"
+			(at 346.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Stock" "20904"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.033USD"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "15"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "8"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,TVS"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Liown"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMF6.0CA"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "200W"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "6.67V"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "10.3V"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "19.4A"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "6V"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "400uA"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfb80271-cbc7-4c84-9862-2d0234472ea1")
 		)
 		(pin "1"
-			(uuid "886b3158-8e69-4883-84b4-93037b804bcd")
+			(uuid "fa2bf449-7e35-4d42-adcc-4f1cbbd8d74b")
 		)
 		(instances
-			(project "ProjectY"
+			(project ""
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 264.16 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "963d65a2-750a-4f4f-84e3-22100c0c53b1")
-		(property "Reference" "#PWR0116"
-			(at 264.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af224a57-b4e5-4f57-8d36-6cb7c2f997d9")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "#PWR0116")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18379,7 +15931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 237.49 0)
+		(at 370.84 238.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18389,7 +15941,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dcf98ca-ede7-4d64-a173-434423d3a1d1")
 		(property "Reference" "#PWR02"
-			(at 368.3 243.84 0)
+			(at 370.84 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18398,7 +15950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 242.57 0)
+			(at 370.84 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18406,7 +15958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 237.49 0)
+			(at 370.84 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18415,7 +15967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 237.49 0)
+			(at 370.84 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18424,7 +15976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 237.49 0)
+			(at 370.84 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19028,202 +16580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 360.68 26.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba419d7d-6258-41e9-9546-a2f7b21709d9")
-		(property "Reference" "C74"
-			(at 358.14 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 358.14 26.67 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 362.458 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6316629"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 358.14 29.21 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 360.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10727de8-3858-4103-b7cf-be007d4e49cd")
-		)
-		(pin "1"
-			(uuid "edae03c2-a526-4dcc-bb65-9c8ed3cacc4f")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
 		(at 156.21 52.07 90)
 		(unit 1)
@@ -19446,202 +16802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 353.06 26.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6d7aa58-7cbb-4801-bbfb-475ed0b28a58")
-		(property "Reference" "C75"
-			(at 350.52 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 350.52 26.67 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 354.838 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6316629"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 350.52 29.21 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 353.06 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "275d0123-3b21-44ec-a029-6aac7ce8442b")
-		)
-		(pin "1"
-			(uuid "12bfb500-46fa-49b1-a84d-f300e5921893")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 54.61 0)
 		(mirror y)
@@ -19703,6 +16863,229 @@
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,100kΩ")
+		(at 341.63 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda801b0-6904-469a-9d67-cc732ca05a01")
+		(property "Reference" "R30"
+			(at 344.17 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 341.63 234.95 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 339.852 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7764145"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1003TCE"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100kΩ"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11891d96-6b55-4799-84dd-4d8507b2d3a2")
+		)
+		(pin "2"
+			(uuid "b6a9a2e2-9d19-4127-8dd6-6411dba43f76")
+		)
+		(instances
+			(project "ProjectY"
+				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -20350,302 +17733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC856BS")
-		(at 266.7 50.8 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3bc7412-08e7-4f2f-a481-5bc2fbb76cc9")
-		(property "Reference" "Q4"
-			(at 261.62 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC856BS"
-			(at 261.62 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 261.62 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf"
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363"
-			(at 266.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "80d0b94a-71bf-40ef-ac1a-ff17ecb285c2")
-		)
-		(pin "1"
-			(uuid "423ea803-5a69-474d-9424-86b3f75344ab")
-		)
-		(pin "2"
-			(uuid "761ba7f7-72ee-41f4-844a-39ba73490c80")
-		)
-		(pin "3"
-			(uuid "3a01669b-c701-443a-a5f3-9a4287d0a6ee")
-		)
-		(pin "6"
-			(uuid "3353f8e4-6ca7-4f51-8734-4ea15c9a1b44")
-		)
-		(pin "5"
-			(uuid "e02f23c8-6d0c-4634-ade8-b408944aaa72")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "Q4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54WS")
-		(at 292.1 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d519113b-6b19-43bf-b97e-a9924c7af325")
-		(property "Reference" "D10"
-			(at 294.64 75.2474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54WS"
-			(at 294.64 77.7875 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
-			(at 290.322 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281443_hongjiacheng-BAT54WS_C7502694.pdf"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Independent Type 200mA 1V@100mA SOD-323 Schottky Diodes ROHS"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7502694"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "89670"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "6"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BAT54WS"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "1V@100mA"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "30V"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Average Rectified Current (Io)" "200mA"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Diode Configuration" "Single"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak forward surge current" "600mA"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Leakage Current (Ir)" "2uA"
-			(at 292.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bb8cf0e-dcfb-42b7-be68-cade03115587")
-		)
-		(pin "2"
-			(uuid "92306e41-8331-40f7-8941-447e3486d8a2")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TLV9004xRUCR")
 		(at 54.61 160.02 0)
 		(unit 2)
@@ -20751,7 +17838,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 67.31 83.82 90)
+		(at 66.04 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20760,7 +17847,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7e69d46-76c1-4219-89ba-e74a1543c7ee")
 		(property "Reference" "R106"
-			(at 67.31 80.01 90)
+			(at 66.04 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20768,7 +17855,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 67.31 83.82 90)
+			(at 66.04 83.82 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20777,7 +17864,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 67.31 85.598 90)
+			(at 66.04 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20786,7 +17873,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20795,7 +17882,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20804,7 +17891,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20813,7 +17900,7 @@
 			)
 		)
 		(property "Stock" "5907585"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20822,7 +17909,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20831,7 +17918,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20840,7 +17927,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20849,7 +17936,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20858,7 +17945,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,7 +17954,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20876,7 +17963,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20885,7 +17972,7 @@
 			)
 		)
 		(property "Part" "0402WGF1000TCE"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20894,7 +17981,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20903,7 +17990,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20912,7 +17999,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20921,7 +18008,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20930,7 +18017,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20939,7 +18026,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,7 +18035,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 67.31 83.82 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21039,204 +18126,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 345.44 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da8608ae-1df5-4628-9826-47c9ede2cf19")
-		(property "Reference" "C77"
-			(at 342.9 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 342.9 43.18 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 347.218 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6316629"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 342.9 45.72 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 345.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1752b50a-5d77-48dd-a6d4-ee04d9721840")
-		)
-		(pin "1"
-			(uuid "07d51451-b3d5-47f7-9a29-5b98b62eb29e")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 373.38 30.48 0)
+		(at 355.6 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21246,7 +18137,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc3b8fc4-d546-442d-b594-9f916eaf5a09")
 		(property "Reference" "#PWR0127"
-			(at 373.38 36.83 0)
+			(at 355.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21255,7 +18146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 373.38 35.56 0)
+			(at 355.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21263,7 +18154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 30.48 0)
+			(at 355.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21272,7 +18163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 30.48 0)
+			(at 355.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21281,7 +18172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 30.48 0)
+			(at 355.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21499,229 +18390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,120Ω")
-		(at 271.78 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcf31d6d-46e5-4f73-b6e8-c085d740ef51")
-		(property "Reference" "R35"
-			(at 274.32 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 271.78 46.99 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 270.002 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25079"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "424372"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1200TCE"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "120Ω"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac02850a-3b93-44f3-abab-2ccbc15e674f")
-		)
-		(pin "1"
-			(uuid "a1e54c5b-c2ad-4cc7-9802-66f0c5574513")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC14")
 		(at 172.72 91.44 0)
 		(unit 4)
@@ -21827,7 +18495,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 349.25 237.49 0)
+		(at 351.79 238.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21837,7 +18505,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0523aea-0c30-45a2-814c-dd59771fa75c")
 		(property "Reference" "#PWR01"
-			(at 349.25 243.84 0)
+			(at 351.79 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21846,7 +18514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 349.25 242.57 0)
+			(at 351.79 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21854,7 +18522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 237.49 0)
+			(at 351.79 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21863,7 +18531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 237.49 0)
+			(at 351.79 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21872,7 +18540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 237.49 0)
+			(at 351.79 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22292,7 +18960,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,2kΩ")
-		(at 369.57 85.09 0)
+		(at 383.54 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22301,7 +18969,7 @@
 		(fields_autoplaced yes)
 		(uuid "e49ed27d-520e-488f-a182-91873572d312")
 		(property "Reference" "R5"
-			(at 372.11 85.0899 0)
+			(at 386.08 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22310,7 +18978,7 @@
 			)
 		)
 		(property "Value" "2kΩ"
-			(at 369.57 85.09 90)
+			(at 383.54 38.1 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22319,7 +18987,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 367.792 85.09 90)
+			(at 381.762 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22328,7 +18996,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22337,7 +19005,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 2kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22346,7 +19014,7 @@
 			)
 		)
 		(property "LCSC" "C4109"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22355,7 +19023,7 @@
 			)
 		)
 		(property "Stock" "2200973"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22364,7 +19032,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22373,7 +19041,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22382,7 +19050,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22391,7 +19059,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +19068,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22409,7 +19077,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +19086,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22427,7 +19095,7 @@
 			)
 		)
 		(property "Part" "0402WGF2001TCE"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22436,7 +19104,7 @@
 			)
 		)
 		(property "Resistance" "2kΩ"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22445,7 +19113,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22454,7 +19122,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22463,7 +19131,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22472,7 +19140,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22481,7 +19149,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22490,7 +19158,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 369.57 85.09 0)
+			(at 383.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22505,7 +19173,7 @@
 			(uuid "7c195a82-9ecc-4e90-8bd6-7e9c0f22a958")
 		)
 		(instances
-			(project ""
+			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "R5")
 					(unit 1)
@@ -22515,7 +19183,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 368.3 26.67 0)
+		(at 355.6 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22524,16 +19192,17 @@
 		(dnp no)
 		(uuid "e6f90b95-9692-421e-9ec1-e2dea6d50245")
 		(property "Reference" "C73"
-			(at 365.76 24.1299 0)
+			(at 353.06 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "1uF"
-			(at 365.76 26.67 0)
+			(at 353.06 59.69 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22542,7 +19211,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 370.078 26.67 90)
+			(at 357.378 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22551,7 +19220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22560,7 +19229,7 @@
 			)
 		)
 		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22569,7 +19238,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22578,7 +19247,7 @@
 			)
 		)
 		(property "Stock" "6316629"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22587,7 +19256,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22596,7 +19265,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22605,7 +19274,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22614,7 +19283,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22623,7 +19292,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22632,7 +19301,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22641,7 +19310,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22650,7 +19319,7 @@
 			)
 		)
 		(property "Part" "CL05A105KA5NQNC"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22659,7 +19328,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 365.76 29.21 0)
+			(at 353.06 62.23 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22668,7 +19337,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22677,7 +19346,7 @@
 			)
 		)
 		(property "Capacitance" "1uF"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22686,7 +19355,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 368.3 26.67 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22704,220 +19373,6 @@
 			(project ""
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54WS")
-		(at 292.1 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eae7572d-857e-41ae-8197-bb19d0155b4e")
-		(property "Reference" "D9"
-			(at 294.64 63.8174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54WS"
-			(at 294.64 66.3575 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
-			(at 290.322 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281443_hongjiacheng-BAT54WS_C7502694.pdf"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Independent Type 200mA 1V@100mA SOD-323 Schottky Diodes ROHS"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7502694"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "89670"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.014USD"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "6"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BAT54WS"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "1V@100mA"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "30V"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Average Rectified Current (Io)" "200mA"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Diode Configuration" "Single"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak forward surge current" "600mA"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Leakage Current (Ir)" "2uA"
-			(at 292.1 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce2be3e1-6d49-4047-94d7-ba63a28b93f1")
-		)
-		(pin "2"
-			(uuid "cf7b8b83-68ca-4faa-8302-7298f1109684")
-		)
-		(instances
-			(project ""
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -23343,6 +19798,228 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0805,220Ω")
+		(at 350.52 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f99931ee-4d83-4c34-b49a-b7d6a01a4dc4")
+		(property "Reference" "R2"
+			(at 350.52 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 350.52 46.99 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0805"
+			(at 350.52 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2200T5E_C17557.pdf"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 220Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17557"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "576694"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.005USD"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F2200T5E"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "220Ω"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "125mW"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "150V"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 350.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "713b7194-c42d-4af3-91f8-c458be67c5b9")
+		)
+		(pin "2"
+			(uuid "a979ae9f-3e3a-40e0-9f49-66742c2740d7")
+		)
+		(instances
+			(project ""
+				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "0402,10kΩ_1")
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
 		(at 31.75 53.34 90)
@@ -23567,7 +20244,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:EL814")
-		(at 359.41 91.44 0)
+		(at 373.38 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23575,7 +20252,7 @@
 		(dnp no)
 		(uuid "ff56fc64-0e43-4040-8042-9092cb12255d")
 		(property "Reference" "U15"
-			(at 359.41 82.55 0)
+			(at 373.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23583,7 +20260,7 @@
 			)
 		)
 		(property "Value" "ISOM8115"
-			(at 359.41 85.09 0)
+			(at 373.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23591,7 +20268,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
-			(at 354.33 96.52 0)
+			(at 368.3 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23602,7 +20279,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL814.pdf"
-			(at 360.045 91.44 0)
+			(at 374.015 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23612,7 +20289,7 @@
 			)
 		)
 		(property "Description" "AC/DC NPN Optocoupler, DIP4/SMD4"
-			(at 359.41 91.44 0)
+			(at 373.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23636,202 +20313,6 @@
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
-		(at 353.06 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffd6e5d5-7df2-4521-b8b1-746a0045f687")
-		(property "Reference" "C78"
-			(at 350.52 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 350.52 43.18 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 354.838 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "6316629"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL05A105KA5NQNC"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "25V"
-			(at 350.52 45.72 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 353.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c26af30b-6f69-4276-a0ea-6f43c8be3e70")
-		)
-		(pin "1"
-			(uuid "5700cfb5-5396-4e9c-a5d2-27ec65b096f4")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7/6f284686-88df-4be9-8c59-db2c9e0533e1"
-					(reference "C78")
 					(unit 1)
 				)
 			)

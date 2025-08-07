@@ -2829,16 +2829,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 97.79) (xy 224.79 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a040cf8d-5032-4fcc-9357-4c50ebed77ae")
-	)
-	(wire
-		(pts
 			(xy 130.81 115.57) (xy 185.42 115.57)
 		)
 		(stroke
@@ -4863,16 +4853,6 @@
 				(justify left)
 			)
 		)
-		(pin "UART0_TX" input
-			(at 224.79 97.79 270)
-			(uuid "58725e34-87ba-4f3c-b30b-e87cf5658dbd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Midi In Source" input
 			(at 208.28 71.12 180)
 			(uuid "80bea38e-ab3d-46e7-8fae-90e4e9175abf")
@@ -5219,16 +5199,6 @@
 		(pin "MIDI_UART0_RX" input
 			(at 227.33 107.95 90)
 			(uuid "89ffd143-7998-4e15-930b-a9876b5da511")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIDI_UART0_TX" input
-			(at 224.79 107.95 90)
-			(uuid "d478cf38-9766-4b93-b89b-7c71c06847f1")
 			(effects
 				(font
 					(size 1.27 1.27)

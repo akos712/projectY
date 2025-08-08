@@ -718,29 +718,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -761,7 +759,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -779,7 +777,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -788,7 +786,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -845,6 +843,17 @@
 					)
 				)
 				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
 					(stroke
@@ -855,8 +864,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1057,7 +1077,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -1229,7 +1249,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1247,7 +1267,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1281,6 +1301,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "D+"
@@ -1291,6 +1329,24 @@
 						)
 					)
 					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1966,6 +2022,12 @@
 		(uuid "986bffb3-9639-410a-83f2-bd332a7d7ec7")
 	)
 	(junction
+		(at 100.33 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0795218-9424-4d7e-837e-767962abc989")
+	)
+	(junction
 		(at 323.85 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,6 +2044,12 @@
 		(diameter 2)
 		(color 255 0 0 1)
 		(uuid "e61e4297-510f-48ff-92ce-31887d14601d")
+	)
+	(junction
+		(at 100.33 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e970dd6c-74ea-4bb6-9769-45681796578c")
 	)
 	(no_connect
 		(at 308.61 125.73)
@@ -2010,6 +2078,16 @@
 	(no_connect
 		(at 283.21 172.72)
 		(uuid "c5459414-d18c-42a4-8b55-392e256d3298")
+	)
+	(wire
+		(pts
+			(xy 100.33 147.32) (xy 100.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b0bb5e-d3cd-4496-a94f-12dd5a85a4e0")
 	)
 	(wire
 		(pts
@@ -2347,16 +2425,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 71.12) (xy 281.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b157650-934c-45d2-802e-671d66c4efc1")
-	)
-	(wire
-		(pts
 			(xy 171.45 147.32) (xy 171.45 170.18)
 		)
 		(stroke
@@ -2417,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 144.78) (xy 105.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4deadaa7-08f8-4420-8c3d-572c09bde66f")
+	)
+	(wire
+		(pts
 			(xy 233.68 143.51) (xy 233.68 158.75)
 		)
 		(stroke
@@ -2434,16 +2512,6 @@
 			(type default)
 		)
 		(uuid "521a17ab-c77a-4fea-a4b9-c08474e6a03c")
-	)
-	(wire
-		(pts
-			(xy 262.89 73.66) (xy 281.94 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5647d002-518b-42c1-ad0b-abc4577e05c9")
 	)
 	(wire
 		(pts
@@ -2667,16 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 68.58) (xy 281.94 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2973ee-726d-4784-8df6-36b622eb4104")
-	)
-	(wire
-		(pts
 			(xy 208.28 95.25) (xy 196.85 95.25)
 		)
 		(stroke
@@ -2779,16 +2837,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 144.78) (xy 105.41 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fc0fd2-856c-4b8a-acc0-7abaa62389d1")
-	)
-	(wire
-		(pts
 			(xy 83.82 241.3) (xy 83.82 246.38)
 		)
 		(stroke
@@ -2826,6 +2874,16 @@
 			(type default)
 		)
 		(uuid "9ef3ab6b-b08a-450a-85b3-583983d28afe")
+	)
+	(wire
+		(pts
+			(xy 100.33 149.86) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f688958-5775-4367-9a28-2ba828dfcc6e")
 	)
 	(wire
 		(pts
@@ -3423,6 +3481,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 85.09 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c650206-bc4b-4a74-9517-efa54873e6ca")
+		(property "Reference" "J9"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 85.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B5"
+			(uuid "a550511d-9752-4deb-bd86-cf5f07655b3c")
+		)
+		(pin "A5"
+			(uuid "78f59094-5e40-4453-8039-4f6c5b47b9f9")
+		)
+		(pin "A1"
+			(uuid "a2bc2c67-9c3b-4c7b-89ea-dcb37b612f9f")
+		)
+		(pin "A9"
+			(uuid "063a9481-8a6d-4a00-bc43-ca6f3dd6487c")
+		)
+		(pin "A4"
+			(uuid "60597530-1582-4f67-b10d-6a4bd7e4b4ee")
+		)
+		(pin "A12"
+			(uuid "1ad73745-7b9d-43be-91cd-2efe9b5567b0")
+		)
+		(pin "B1"
+			(uuid "bbbaae78-c151-4bd9-b773-1529ea85c138")
+		)
+		(pin "B12"
+			(uuid "62dc8b7c-9685-497a-8e63-11da018a08ee")
+		)
+		(pin "B4"
+			(uuid "17cec6a9-1fa9-4877-855f-ae0579043333")
+		)
+		(pin "S1"
+			(uuid "6ebd13d2-7923-4266-abae-8814a6ef2102")
+		)
+		(pin "B9"
+			(uuid "c971eb32-8a3d-4016-a57d-7849a6e36757")
+		)
+		(pin "A6"
+			(uuid "34dfebb1-e365-4df4-944d-09d029cabeb9")
+		)
+		(pin "A7"
+			(uuid "0531d644-2ab5-4977-a3bc-5b0d333c8707")
+		)
+		(pin "B7"
+			(uuid "111ba463-0387-4dd2-86cc-ce4bd9419d10")
+		)
+		(pin "B6"
+			(uuid "b9dfdbeb-2472-4470-8926-a84a07f84a5c")
+		)
+		(instances
+			(project ""
+				(path "/6b669608-d244-47fa-b233-c11102b937f7"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 229.87 0)
 		(unit 1)
@@ -3755,178 +3920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 287.02 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5de4d07c-2842-41d8-86b4-eec2320482bf")
-		(property "Reference" "J9"
-			(at 287.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIDI Out"
-			(at 287.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_Lumberg_1503_07_Horizontal"
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "R"
-			(uuid "43e029b6-1c74-40e3-8b09-7f6397bc13b4")
-		)
-		(pin "S"
-			(uuid "85d860a3-8d0c-43b2-bca8-150320b2ed7f")
-		)
-		(pin "T"
-			(uuid "bc2d408d-8c80-4b6f-993b-ec2a9b807c4d")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 85.09 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6afdea82-8669-4e95-bd8b-a0794182be13")
-		(property "Reference" "P1"
-			(at 85.852 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_C"
-			(at 88.138 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
-			(at 88.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 88.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 85.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "9daa7a6a-4e07-4dfd-af1c-81be91bf403e")
-		)
-		(pin "A6"
-			(uuid "ff796b7c-b12f-4946-b601-5ce5595f433f")
-		)
-		(pin "B4"
-			(uuid "a4c0c69a-e95c-47e3-a4c3-568c8a96a2b5")
-		)
-		(pin "A9"
-			(uuid "17b50a87-513e-4458-b84c-478b93386a35")
-		)
-		(pin "B1"
-			(uuid "c523a263-57bb-42d9-9e57-664fe3fcf820")
-		)
-		(pin "S1"
-			(uuid "34cfd2e4-3a01-4c22-b70c-bedff7966275")
-		)
-		(pin "A7"
-			(uuid "ab71f580-1b1c-4cfe-b7ef-611776a83aec")
-		)
-		(pin "A12"
-			(uuid "8ea06d0a-25a4-4354-b116-d7c7fc98bede")
-		)
-		(pin "B12"
-			(uuid "4d5b5f3e-204d-4cec-b80d-29b0d4f2cf12")
-		)
-		(pin "A1"
-			(uuid "62f24ec0-a19d-40ab-b365-08936465f9d8")
-		)
-		(pin "B9"
-			(uuid "13ddc342-7b4c-4c97-b956-8d2844326724")
-		)
-		(pin "B5"
-			(uuid "a21434ea-e56d-4b3b-a0e9-d91d180194d2")
-		)
-		(pin "A4"
-			(uuid "9f2552b4-e30a-45ba-9a93-c16ec9906326")
-		)
-		(instances
-			(project "ProjectY"
-				(path "/6b669608-d244-47fa-b233-c11102b937f7"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:NRJ6HF")
 		(at 76.2 248.92 0)
 		(mirror x)
@@ -4182,7 +4175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 			(at 321.31 120.65 0)
 			(effects
 				(font
@@ -4386,16 +4379,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 170.18 0)
+		(at 85.09 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d16e9272-f3e8-4d76-ad90-270e04f1f2bd")
-		(property "Reference" "#PWR039"
-			(at 77.47 176.53 0)
+		(uuid "d65c309f-68e8-4e66-93da-2aee12942da0")
+		(property "Reference" "#PWR038"
+			(at 85.09 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 175.26 0)
+			(at 85.09 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,12 +4432,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7bd1fb9-a9d2-4cb1-be8b-cbece5048f15")
+			(uuid "bf094f97-760b-425c-bae4-26b0412629ef")
 		)
 		(instances
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4524,16 +4517,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 170.18 0)
+		(at 77.47 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f76bf6ed-5d2b-4a8a-bc1b-8534322dd875")
-		(property "Reference" "#PWR038"
-			(at 85.09 176.53 0)
+		(uuid "f233913d-ad2b-4556-818c-977bd23da143")
+		(property "Reference" "#PWR039"
+			(at 77.47 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 175.26 0)
+			(at 77.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 170.18 0)
+			(at 77.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 170.18 0)
+			(at 77.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 170.18 0)
+			(at 77.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,12 +4570,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b6c47db-c8ee-44f2-89f3-0195db57df8f")
+			(uuid "686e3002-947d-493c-9f55-8912b97a2f8f")
 		)
 		(instances
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

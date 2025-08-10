@@ -124,11 +124,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 1907,
-          "pos_y": 0,
-          "size_x": 1946,
-          "size_y": 2293
+          "maximized": true,
+          "pos_x": -16,
+          "pos_y": -16,
+          "size_x": 3872,
+          "size_y": 2312
         }
       },
       {
@@ -136,11 +136,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": -13,
-          "pos_y": 0,
-          "size_x": 1946,
-          "size_y": 2293
+          "maximized": true,
+          "pos_x": -16,
+          "pos_y": -16,
+          "size_x": 3872,
+          "size_y": 2312
         }
       }
     ]

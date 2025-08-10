@@ -121696,6 +121696,22 @@
 		(uuid "e6d059db-1f50-4c63-8051-d02f9cb2b2ac")
 	)
 	(segment
+		(start 161.015 105.9944)
+		(end 161.015 105.366161)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "0f0e74ee-656d-47f2-87df-14a81cb616b8")
+	)
+	(via
+		(at 161.015 105.366161)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "ad59f77a-f83a-4883-9c45-7c615bef1b71")
+	)
+	(segment
 		(start 160.4775 103.271324)
 		(end 160.775 102.973824)
 		(width 0.2)

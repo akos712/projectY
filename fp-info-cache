@@ -1,4 +1,4 @@
-24972103926754655
+24980897323837865
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99617,6 +99617,13 @@ neutrik jack slim
 4
 4
 User
+Jack_6.35mm_Neutrik_NRJ6HF_Horizontal
+Slim Jacks, 6.35mm (1/4in) stereo jack, switched, fully threaded nose, https://www.neutrik.com/en/product/nrj6hf
+neutrik jack slim
+0
+6
+6
+User
 Jack_6.35mm_Neutrik_NSJ12HF-1_Horizontal
 Stacking Jacks, Stereo dual jack, full threaded nose, https://www.neutrik.com/en/product/nsj12hf-1
 neutrik jack stacking
@@ -99645,6 +99652,13 @@ potentiometer vertical 9mm single
 5
 3
 User
+QFN40L_6X6-W-TYPE_RIT
+
+RT7273GQW 
+0
+41
+41
+User
 RV16AF
 
 
@@ -99659,12 +99673,33 @@ RV16AF_2
 6
 6
 User
+RV141F-40E3-18BL-B10K-004
+
+
+0
+3
+3
+User
 SON40P300X300X80-13N
 
 
 0
 13
 13
+User
+TAC5242
+VQFN, 24 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/product-documents/package-drawings/24L-VQFN%E2%80%934x4x0.9mm-MJ-C04-00143b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+39
+28
+User
+USB_C_Receptacle_GCT_USB4110
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf
+USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A
+0
+20
+17
 User
 VFBGA178_12X12_STM
 

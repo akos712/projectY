@@ -1,4 +1,4 @@
-24980897323837865
+24982653891156271
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99631,6 +99631,13 @@ neutrik jack stacking
 13
 13
 User
+KYO_009155002852006
+
+
+0
+4
+2
+User
 PW28
 
 DIR9001PWR 
@@ -99692,7 +99699,7 @@ VQFN, 24 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/product
 VQFN NoLead
 0
 39
-28
+29
 User
 USB_C_Receptacle_GCT_USB4110
 USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf

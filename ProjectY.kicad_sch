@@ -1496,6 +1496,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Thunderscope_Rev5:CONN SPRING 2 PIN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "009155002852006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Thunderscope_Rev5:KYO_009155002852006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER 1" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "581-009155002852006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HOUSE PART NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "KYOCERA AVX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER PART NUMBER" "009155002852006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN SPRING 2 PIN_1_0"
+				(rectangle
+					(start 2.54 2.54)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Thunderscope_Rev5:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1619,16 +1864,34 @@
 		(uuid "1df166f5-7499-4763-87ef-ace8a93f9342")
 	)
 	(junction
+		(at 339.09 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "340d6932-2f9d-4968-8a8d-7e8cebaf7e14")
+	)
+	(junction
 		(at 116.84 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38bdfb70-0eb8-4e99-bd94-bb2170aaa98e")
 	)
 	(junction
+		(at 373.38 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "526025aa-217c-4653-8cff-46381ea748e0")
+	)
+	(junction
 		(at 307.34 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c0be1a4-654e-437f-bb5e-f9d998e7d2ad")
+	)
+	(junction
+		(at 293.37 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6490f78e-29f2-48f1-94d6-fe18f31e5ebb")
 	)
 	(junction
 		(at 116.84 234.95)
@@ -1641,6 +1904,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f753a22-2b0c-4e74-acd8-cd01f3352709")
+	)
+	(junction
+		(at 293.37 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e5a0d89-8f24-4d19-bdf9-28b25991d843")
+	)
+	(junction
+		(at 293.37 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f2cbc9f-c46b-4191-9293-c8143f541c8d")
 	)
 	(junction
 		(at 116.84 237.49)
@@ -1669,24 +1944,12 @@
 		(uuid "07a02a49-323f-4ac3-b61e-b62361329804")
 	)
 	(no_connect
-		(at 295.91 153.67)
-		(uuid "33710958-742f-4469-a7af-4013455ce051")
-	)
-	(no_connect
 		(at 289.56 224.79)
 		(uuid "63dbf924-7058-48bc-ad28-167f3ce4b397")
 	)
 	(no_connect
 		(at 289.56 234.95)
 		(uuid "c5459414-d18c-42a4-8b55-392e256d3298")
-	)
-	(no_connect
-		(at 295.91 148.59)
-		(uuid "c8329e6d-61f5-4053-8f64-d35eb00571a8")
-	)
-	(no_connect
-		(at 295.91 143.51)
-		(uuid "eec18e9f-ed3c-4918-8ae6-681e2b76f2db")
 	)
 	(wire
 		(pts
@@ -1738,6 +2001,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "09ac3fce-63f7-4dcf-97bc-5a36e7602c1f")
+	)
+	(wire
+		(pts
+			(xy 293.37 148.59) (xy 295.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c13835-df33-43ad-8a4d-0d5b7d13f5ef")
 	)
 	(wire
 		(pts
@@ -1843,6 +2116,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 29.21) (xy 373.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2add5463-a62e-4201-aa6a-726106276f03")
+	)
+	(wire
+		(pts
 			(xy 196.85 139.7) (xy 196.85 205.74)
 		)
 		(stroke
@@ -1924,6 +2207,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 29.21) (xy 339.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a613c72-ff9f-4aa8-9ebe-2f61f995ff7d")
+	)
+	(wire
+		(pts
 			(xy 323.85 135.89) (xy 323.85 137.16)
 		)
 		(stroke
@@ -1951,6 +2244,16 @@
 			(type default)
 		)
 		(uuid "4f8cbe75-7021-43ae-92bc-965cb8695eba")
+	)
+	(wire
+		(pts
+			(xy 293.37 156.21) (xy 295.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532eb6d7-1ed5-434b-8f8b-61b64325a798")
 	)
 	(wire
 		(pts
@@ -2074,6 +2377,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 143.51) (xy 293.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775358fa-4f2b-4f86-a88b-d5365ca209df")
+	)
+	(wire
+		(pts
 			(xy 90.17 116.84) (xy 87.63 116.84)
 		)
 		(stroke
@@ -2115,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 24.13) (xy 373.38 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8449789e-5f9c-45ff-8d2a-a47fcfb38886")
+	)
+	(wire
+		(pts
 			(xy 114.3 232.41) (xy 208.28 232.41)
 		)
 		(stroke
@@ -2122,6 +2445,16 @@
 			(type default)
 		)
 		(uuid "84ac9ac1-54d0-4868-a6f4-5a23289e95a2")
+	)
+	(wire
+		(pts
+			(xy 341.63 24.13) (xy 339.09 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860ae21a-c918-43f9-a295-8665d28b57e5")
 	)
 	(wire
 		(pts
@@ -2142,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "8af6fdbd-2074-4b91-821e-4205134991ab")
+	)
+	(wire
+		(pts
+			(xy 339.09 26.67) (xy 339.09 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3021bd-fcd9-484e-aeba-0e73181c7f33")
 	)
 	(wire
 		(pts
@@ -2266,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 26.67) (xy 373.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0de2a95-f9d2-4a1f-b9d6-50085485a1b5")
+	)
+	(wire
+		(pts
 			(xy 177.8 151.13) (xy 177.8 217.17)
 		)
 		(stroke
@@ -2293,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "cd070b6e-927e-437d-8c79-097398f35c24")
+	)
+	(wire
+		(pts
+			(xy 373.38 26.67) (xy 373.38 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda75600-c9f9-4b8a-b279-b981e863a8b6")
 	)
 	(wire
 		(pts
@@ -2326,6 +2689,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 153.67) (xy 293.37 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddeb257a-f6fb-448a-89a3-6feed8d2c516")
+	)
+	(wire
+		(pts
 			(xy 278.13 176.53) (xy 307.34 176.53)
 		)
 		(stroke
@@ -2356,7 +2729,47 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 156.21) (xy 295.91 156.21)
+			(xy 295.91 143.51) (xy 293.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8aee1c8-d791-4808-a25d-698df8e78731")
+	)
+	(wire
+		(pts
+			(xy 293.37 148.59) (xy 293.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fed66f-3255-414c-aab5-2d3701c43135")
+	)
+	(wire
+		(pts
+			(xy 293.37 153.67) (xy 295.91 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c92c6f-f6e9-460b-abdd-0d145de3b005")
+	)
+	(wire
+		(pts
+			(xy 341.63 26.67) (xy 339.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f767a1b0-c5a5-409d-8838-e9e111da9480")
+	)
+	(wire
+		(pts
+			(xy 278.13 156.21) (xy 293.37 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2771,6 +3184,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Thunderscope_Rev5:CONN SPRING 2 PIN")
+		(at 360.68 26.67 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c15f75d-605e-42a5-b17e-49137f0c2cff")
+		(property "Reference" "J16"
+			(at 363.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "009155002852006"
+			(at 367.03 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "User:KYO_009155002852006"
+			(at 360.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 358.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "581-009155002852006"
+			(at 358.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 358.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 358.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "009155002852006"
+			(at 358.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 360.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3382911-a09a-4048-9aad-219c3245fe91")
+		)
+		(pin "2"
+			(uuid "59a47bf7-0890-4a27-ad04-66f4471dfadb")
+		)
+		(instances
+			(project "ProjectY"
+				(path "/6b669608-d244-47fa-b233-c11102b937f7"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 287.02 240.03 0)
 		(mirror y)
@@ -2927,6 +3468,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 373.38 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4786f6a-1363-4a51-a079-725c2b285f29")
+		(property "Reference" "#PWR0363"
+			(at 373.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a57aa2d3-af30-4c26-bd7f-e0c5232f0acc")
+		)
+		(instances
+			(project "ProjectY"
+				(path "/6b669608-d244-47fa-b233-c11102b937f7"
+					(reference "#PWR0363")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
 		(at 321.31 120.65 0)
 		(mirror y)
@@ -3016,6 +3622,199 @@
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 339.09 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be63e6fd-50de-4eb0-a325-5b857d68db56")
+		(property "Reference" "#PWR0362"
+			(at 339.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 339.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 339.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e32276-c0e4-4266-a5d5-2522efcf033a")
+		)
+		(instances
+			(project "ProjectY"
+				(path "/6b669608-d244-47fa-b233-c11102b937f7"
+					(reference "#PWR0362")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CONN SPRING 2 PIN")
+		(at 351.79 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1e31308-6d28-419b-86f5-56836cef7944")
+		(property "Reference" "J15"
+			(at 349.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "009155002852006"
+			(at 345.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "User:KYO_009155002852006"
+			(at 351.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 354.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "581-009155002852006"
+			(at 354.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 354.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 354.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "009155002852006"
+			(at 354.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 351.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e80ed75-7d25-4fcf-a4a0-c4d828b83582")
+		)
+		(pin "2"
+			(uuid "58c273c4-fd84-4ffb-8471-71289b0318a6")
+		)
+		(instances
+			(project "ProjectY"
+				(path "/6b669608-d244-47fa-b233-c11102b937f7"
+					(reference "J15")
 					(unit 1)
 				)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.35,
-          "width": 0.35
+          "drill": 0.4064,
+          "height": 0.6096,
+          "width": 0.6096
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -190,7 +190,8 @@
         0.0,
         0.0762,
         0.1016,
-        0.12,
+        0.127,
+        0.1524,
         0.2
       ],
       "tuning_pattern_settings": {
@@ -461,6 +462,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -512,7 +514,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ProjectY.step",
+      "step": "ProjectY_3D_latest.step",
       "svg": "",
       "vrml": ""
     },

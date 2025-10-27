@@ -226,6 +226,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
           "diameter": 0.4,
           "drill": 0.2
         }
@@ -470,9 +474,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "User"
+      "User",
+      "Footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "User"
+    ]
   },
   "meta": {
     "filename": "ProjectY.kicad_pro",
@@ -482,7 +489,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

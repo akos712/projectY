@@ -92,13 +92,13 @@
 (rule "Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.05mm))
 )
 
 (rule "Clearance: hole to hole (perimeter), different nets"
 	(layer outer)
 	(condition "A.Net != B.Net")
-	(constraint hole_to_hole (min 0.5mm))
+	(constraint hole_to_hole (min 0.25mm))
 )
 
 (rule "Clearance: hole to hole (perimeter), same net"
@@ -115,7 +115,7 @@
 
 (rule "Clearance: track to PTH hole perimeter"
 	(condition "A.isPlated() && B.Type == 'track' && A.Net != B.Net")
-	(constraint hole_clearance (min 0.33mm))
+	(constraint hole_clearance (min 0.2mm))
 )
 
 # TODO: try combining with rule "Clearance: PTH to track, different nets"

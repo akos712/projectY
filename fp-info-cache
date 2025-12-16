@@ -1,4 +1,4 @@
-26811043930716318
+26883418286134055
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -46164,6 +46164,258 @@ SATA
 0
 24
 23
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357280476
+Male SMT Connector w/o Latch & w/o Polarization, body 7.11x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357280476?ki
+SMT
+0
+4
+4
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357280676
+Male SMT Connector w/o Latch & w/o Polarization, body 9.65x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357280676?ki
+SMT
+0
+6
+6
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357280876
+Male SMT Connector w/o Latch & w/o Polarization, body 12.19x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357280876?ki
+SMT
+0
+8
+8
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357281076
+Male SMT Connector w/o Latch & w/o Polarization, body 14.73x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357281076?ki
+SMT
+0
+10
+10
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357281276
+Male SMT Connector w/o Latch & w/o Polarization, body 17.27x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357281276?ki
+SMT
+0
+12
+12
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357281476
+Male SMT Connector w/o Latch & w/o Polarization, body 19.81x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357281476?ki
+SMT
+0
+14
+14
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357281676
+Male SMT Connector w/o Latch & w/o Polarization, body 22.35x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357281676?ki
+SMT
+0
+16
+16
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357281876
+Male SMT Connector w/o Latch & w/o Polarization, body 24.89x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357281876?ki
+SMT
+0
+18
+18
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357282076
+Male SMT Connector w/o Latch & w/o Polarization, body 27.43x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357282076?ki
+SMT
+0
+20
+20
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357282276
+Male SMT Connector w/o Latch & w/o Polarization, body 29.97x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357282276?ki
+SMT
+0
+22
+22
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357282476
+Male SMT Connector w/o Latch & w/o Polarization, body 32.51x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357282476?ki
+SMT
+0
+24
+24
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690357282676
+Male SMT Connector w/o Latch & w/o Polarization, body 35.05x6.5x4.6mm, https://www.we-online.com/en/components/products/datasheet/690357282676?ki
+SMT
+0
+26
+26
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367280476
+Female SMT Connector with Polarization, body 7.08x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367280476?ki
+SMT
+0
+4
+4
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367280676
+Female SMT Connector with Polarization, body 9.62x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367280676?ki
+SMT
+0
+6
+6
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367280876
+Female SMT Connector with Polarization, body 12.16x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367280876?ki
+SMT
+0
+8
+8
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367281076
+Female SMT Connector with Polarization, body 14.7x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367281076?ki
+SMT
+0
+10
+10
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367281276
+Female SMT Connector with Polarization, body 17.24x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367281276?ki
+SMT
+0
+12
+12
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367281476
+Female SMT Connector with Polarization, body 19.78x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367281476?ki
+SMT
+0
+14
+14
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367281676
+Female SMT Connector with Polarization, body 22.32x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367281676?ki
+SMT
+0
+16
+16
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367281876
+Female SMT Connector with Polarization, body 24.86x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367281876?ki
+SMT
+0
+18
+18
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367282076
+Female SMT Connector with Polarization, body 27.4x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367282076?ki
+SMT
+0
+20
+20
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367282276
+Female SMT Connector with Polarization, body 29.94x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367282276?ki
+SMT
+0
+22
+22
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367282476
+Female SMT Connector with Polarization, body 32.48x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367282476?ki
+SMT
+0
+24
+24
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367282676
+Female SMT Connector with Polarization, body 35.02x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367282676?ki
+SMT
+0
+26
+26
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367290476
+Female SMT Connector with Latch & Polarization, body 9.68x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367290476?ki
+SMT
+0
+4
+4
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367290676
+Female SMT Connector with Latch & Polarization, body 12.22x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367290676?ki
+SMT
+0
+6
+6
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367290876
+Female SMT Connector with Latch & Polarization, body 14.76x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367290876?ki
+SMT
+0
+8
+8
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367291076
+Female SMT Connector with Latch & Polarization, body 17.3x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367291076?ki
+SMT
+0
+10
+10
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367291276
+Female SMT Connector with Latch & Polarization, body 19.84x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367291276?ki
+SMT
+0
+12
+12
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367291476
+Female SMT Connector with Latch & Polarization, body 22.38x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367291476?kiFemale SMT Connector with Latch & Polarization, body 22.38x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367291476?ki
+SMT
+0
+14
+14
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367291676
+Female SMT Connector with Latch & Polarization, body 24.92x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367291676?ki
+SMT
+0
+16
+16
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367291876
+Female SMT Connector with Latch & Polarization, body 27.46x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367291876?ki
+SMT
+0
+18
+18
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367292076
+Female SMT Connector with Latch & Polarization, body 30x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367292076?ki
+SMT
+0
+20
+20
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367292276
+Female SMT Connector with Latch & Polarization, body 32.54x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367292276?ki
+SMT
+0
+22
+22
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367292476
+Female SMT Connector with Latch & Polarization, body 35.08x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367292476?ki
+SMT
+0
+24
+24
+Connector_SMD_Wurth
+J_Wurth_WR-MM_690367292676
+Female SMT Connector with Latch & Polarization, body 37.62x7x5.75mm, https://www.we-online.com/en/components/products/datasheet/690367292676?ki
+SMT
+0
+26
+26
 Connector_Samtec
 Samtec_FMC_ASP-134486-01_10x40_P1.27mm_Vertical
 http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf
@@ -105539,6 +105791,13 @@ igbt diode module
 25
 25
 User
+690367190672
+
+
+0
+6
+6
+User
 21-0664E_TD1233-1C_MXM
 
 MAX17577ATC+T 
@@ -105601,6 +105860,20 @@ connector barrel jack
 0
 3
 3
+User
+CON_522070660_MOL
+
+
+0
+8
+8
+User
+DP0028A-IPC_B
+
+XISOUSB211DPR 
+0
+28
+28
 User
 FC7125
 
@@ -105739,8 +106012,15 @@ RV141F-40E3-18BL-B10K-004
 
 
 0
-3
-3
+5
+4
+User
+SOIC16_DW_TEX-L
+
+XISOUSB111DWR 
+0
+16
+16
 User
 SON40P300X300X80-13N
 
@@ -105776,6 +106056,13 @@ STM32N657I0H3Q
 0
 178
 178
+User
+VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias
+VQFN, 24 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/product-documents/package-drawings/24L-VQFN%E2%80%934x4x0.9mm-MJ-C04-00143b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+39
+25
 User
 VREG_TPSM863253RDXR
 

@@ -23498,6 +23498,18 @@
 		(uuid 249c7765-d1ce-4df1-ba55-406aa1146f1a)
 	)
 	(rectangle
+		(start 231.14 182.88)
+		(end 293.37 231.14)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 24c4f697-4d27-42f9-b863-9772061733ac)
+	)
+	(rectangle
 		(start 13.97 195.58)
 		(end 123.19 219.71)
 		(stroke
@@ -23532,19 +23544,6 @@
 			(type none)
 		)
 		(uuid 48db3f91-a553-4936-8e3d-300d1ff734d5)
-	)
-	(rectangle
-		(start 236.22 184.15)
-		(end 298.45 233.68)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 900e4e7f-483e-4ebf-8eeb-506ab5fe8712)
 	)
 	(rectangle
 		(start 309.88 83.82)
@@ -23696,19 +23695,6 @@
 		)
 		(uuid "bd07638a-b958-47ea-abb6-8207c91d75e1")
 	)
-	(text "ADD load switch!!!"
-		(exclude_from_sim no)
-		(at 248.158 193.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "da5a08ed-bedd-4269-ac93-ad7fd45e8418")
-	)
 	(text "Preset FRAM"
 		(exclude_from_sim no)
 		(at 138.938 239.268 0)
@@ -23718,16 +23704,6 @@
 			)
 		)
 		(uuid "de39afa8-4344-442f-a584-b34c7faf4438")
-	)
-	(text "TPS22919"
-		(exclude_from_sim no)
-		(at 262.382 212.598 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "e0c925c6-f2c0-4677-9060-15fffed5dad9")
 	)
 	(text "Additional Decoupling"
 		(exclude_from_sim no)

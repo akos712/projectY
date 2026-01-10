@@ -31,6 +31,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -123,7 +124,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "ProjectY.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 1272,
+          "pos_y": 0,
+          "size_x": 1296,
+          "size_y": 1388
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {

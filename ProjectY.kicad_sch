@@ -1750,6 +1750,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "JLC06161H-3313A"
+		(exclude_from_sim no)
+		(at 34.036 231.902 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "e59ad2fe-3cb1-4e87-a109-a87ef54810eb")
+	)
 	(junction
 		(at 321.31 139.7)
 		(diameter 0)

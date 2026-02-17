@@ -14846,6 +14846,12 @@
 		(uuid "519b3602-dfc3-4e5c-8414-f4a800ef5e98")
 	)
 	(junction
+		(at 138.43 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5418ec43-1246-4078-8e50-9eea78cc646f")
+	)
+	(junction
 		(at 233.68 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15901,7 +15907,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 262.89) (xy 143.51 262.89)
+			(xy 127 262.89) (xy 138.43 262.89)
 		)
 		(stroke
 			(width 0)
@@ -17588,6 +17594,16 @@
 			(type default)
 		)
 		(uuid "e4aa00de-fc71-47f4-8a28-47d0a9ae646b")
+	)
+	(wire
+		(pts
+			(xy 138.43 262.89) (xy 143.51 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5570ea4-a0b4-4bf0-8f5b-4d97d31a70ad")
 	)
 	(wire
 		(pts
@@ -38232,6 +38248,73 @@
 			(project "ProjectY"
 				(path "/6b669608-d244-47fa-b233-c11102b937f7/f81f6974-b487-4052-a7d6-483d2ffe3d9e"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3bc2051-b63b-47f9-9855-9b9c9a92e7ce")
+		(property "Reference" "TP13"
+			(at 140.97 258.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 260.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 143.51 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c82bf40-83bc-4116-8711-95641208abf4")
+		)
+		(instances
+			(project "ProjectY"
+				(path "/6b669608-d244-47fa-b233-c11102b937f7/f81f6974-b487-4052-a7d6-483d2ffe3d9e"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
